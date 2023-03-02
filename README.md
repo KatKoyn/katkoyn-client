@@ -1,13 +1,13 @@
-<img src="doc/NYANCAT.gif"></img> Nyancoin Core (NYAN, Ɲ)
+<img src="doc/katkoyn.png"></img> KatKoyn Core (KAT)
 ==========================
 
-https://www.nyancoin.info/
+https://katkoyn.com/
 
-## What is Nyancoin? 
-Nyancoin is a cryptocurrency like Bitcoin and uses Scrypt instead of SHA-256 for the mining algorithm, much like Litecoin.
+## What is KatKoyn? 
+KatKoyn is a cryptocurrency like Bitcoin and uses Scrypt instead of SHA-256 for the mining algorithm, much like Litecoin.
 
 ## License 
-Nyancoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+KatKoyn Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 ## Development and contributions
@@ -42,15 +42,15 @@ to add a test plan to the pull request description if testing the changes is
 not straightforward.
 
 
-### How to make nyancoind/nyancoin-cli/nyancoin-qt
+### How to make kaykoynd/kaykoyn-cli/kaykoyn-qt
 
-  The following are developer notes on how to build Nyancoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+  The following are developer notes on how to build KatKoyn on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
   - [OSX Build Notes](doc/build-osx.md)
   - [Unix Build Notes](doc/build-unix.md)
   - [Windows Build Notes](doc/build-msw.md)
 
-### Nyancoin ports
+### KatKoyn ports
 RPC 33700
 P2P 33701
 
@@ -68,7 +68,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play nyancoins" on the test network, if you
+Run with the -testnet option to run with "play KatKoyns" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.
@@ -77,7 +77,7 @@ that run in -regtest mode.
 
 **DEBUG_LOCKORDER**
 
-Nyancoin Core is a multithreaded application, and deadlocks or other multithreading bugs
+KatKoyn Core is a multithreaded application, and deadlocks or other multithreading bugs
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of which locks
 are held, and adds warnings to the debug.log file if inconsistencies are detected.
