@@ -141,7 +141,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Nyancoin address (e.g. %1)").arg(
+    widget->setPlaceholderText(QObject::tr("Enter a KatKoyn address (e.g. %1)").arg(
         QString::fromStdString(DummyAddress(Params()))));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
@@ -159,8 +159,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no nyancoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("nyancoin"))
+    // return if URI is not valid or is no katkoyn: URI
+    if(!uri.isValid() || uri.scheme() != QString("katkoyn"))
         return false;
 
     SendCoinsRecipient rv;
@@ -220,13 +220,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert nyancoin:// to nyancoin:
+    // Convert katkoyn:// to katkoyn:
     //
-    //    Cannot handle this later, because nyancoin:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because katkoyn:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("nyancoin://", Qt::CaseInsensitive))
+    if(uri.startsWith("katkoyn://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 11, "nyancoin:");
+        uri.replace(0, 11, "katkoyn:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -234,7 +234,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("nyancoin:%1").arg(info.address);
+    QString ret = QString("katkoyn:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -613,10 +613,10 @@ boost::filesystem::path static StartupShortcutPath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Nyancoin.lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "KatKoyn.lnk";
     if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Nyancoin (testnet).lnk";
-    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Nyancoin (%s).lnk", chain);
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "KatKoyn (testnet).lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("KatKoyn (%s).lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -757,9 +757,9 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)
-            optionFile << "Name=Nyancoin\n";
+            optionFile << "Name=KatKoyn\n";
         else
-            optionFile << strprintf("Name=Nyancoin (%s)\n", chain);
+            optionFile << strprintf("Name=KatKoyn (%s)\n", chain);
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", GetBoolArg("-testnet", false), GetBoolArg("-regtest", false));
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

@@ -2842,7 +2842,7 @@ bool CWallet::AddAccountingEntry(const CAccountingEntry& acentry, CWalletDB *pwa
 
 CAmount CWallet::GetRequiredFee(const CMutableTransaction& tx, unsigned int nTxBytes)
 {
-    // Nyancoin: Add an increased fee for each dust output
+    // KatKoyn: Add an increased fee for each dust output
     return std::max(minTxFee.GetFee(nTxBytes) + GetNyancoinDustFee(tx.vout, minTxFee), ::minRelayTxFee.GetFee(nTxBytes));
 }
 
@@ -2869,7 +2869,7 @@ CAmount CWallet::GetMinimumFee(const CMutableTransaction& tx, unsigned int nTxBy
             nFeeNeeded = fallbackFee.GetFee(nTxBytes);
     }
     // prevent user from paying a fee below minRelayTxFee or minTxFee
-    // Nyancoin: Drop the smart fee estimate, use GetRequiredFee
+    // KatKoyn: Drop the smart fee estimate, use GetRequiredFee
     // nFeeNeeded = std::max(nFeeNeeded, GetRequiredFee(tx, nTxBytes));
     nFeeNeeded = GetRequiredFee(tx, nTxBytes);
     // But always obey the maximum

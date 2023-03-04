@@ -1468,7 +1468,7 @@ void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "Nyancoin " + FormatFullVersion();
+        std::string strDesc = "KatKoyn " + FormatFullVersion();
 
         try {
             while (true) {

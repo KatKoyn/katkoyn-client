@@ -4,10 +4,10 @@ TOPDIR=${TOPDIR:-$(git rev-parse --show-toplevel)}
 SRCDIR=${SRCDIR:-$TOPDIR/src}
 MANDIR=${MANDIR:-$TOPDIR/doc/man}
 
-BITCOIND=${BITCOIND:-$SRCDIR/nyancoind}
-BITCOINCLI=${BITCOINCLI:-$SRCDIR/nyancoin-cli}
-BITCOINTX=${BITCOINTX:-$SRCDIR/nyancoin-tx}
-BITCOINQT=${BITCOINQT:-$SRCDIR/qt/nyancoin-qt}
+BITCOIND=${BITCOIND:-$SRCDIR/katkoynd}
+BITCOINCLI=${BITCOINCLI:-$SRCDIR/katkoyn-cli}
+BITCOINTX=${BITCOINTX:-$SRCDIR/katkoyn-tx}
+BITCOINQT=${BITCOINQT:-$SRCDIR/qt/katkoyn-qt}
 
 [ ! -x $BITCOIND ] && echo "$BITCOIND not found or not executable." && exit 1
 
@@ -15,8 +15,8 @@ BITCOINQT=${BITCOINQT:-$SRCDIR/qt/nyancoin-qt}
 BTCVER=($($BITCOINCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))
 
 # Create a footer file with copyright content.
-# This gets autodetected fine for nyancoind if --version-string is not set,
-# but has different outcomes for nyancoin-qt and nyancoin-cli.
+# This gets autodetected fine for katkoynd if --version-string is not set,
+# but has different outcomes for katkoyn-qt and katkoyn-cli.
 echo "[COPYRIGHT]" > footer.h2m
 $BITCOIND --version | sed -n '1!p' >> footer.h2m
 
