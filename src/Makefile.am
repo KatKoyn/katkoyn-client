@@ -365,16 +365,16 @@ nodist_libnyancoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-nyancoind_SOURCES = bitcoind.cpp
-nyancoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-nyancoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-nyancoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+katkoynd_SOURCES = bitcoind.cpp
+katkoynd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+katkoynd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+katkoynd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-nyancoind_SOURCES += bitcoind-res.rc
+katkoynd_SOURCES += bitcoind-res.rc
 endif
 
-nyancoind_LDADD = \
+katkoynd_LDADD = \
   $(LIBNYANCOIN_SERVER) \
   $(LIBNYANCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -387,38 +387,38 @@ nyancoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-nyancoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+katkoynd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-nyancoin_cli_SOURCES = bitcoin-cli.cpp
-nyancoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-nyancoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-nyancoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+katkoyn_cli_SOURCES = bitcoin-cli.cpp
+katkoyn_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+katkoyn_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+katkoyn_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-nyancoin_cli_SOURCES += bitcoin-cli-res.rc
+katkoyn_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-nyancoin_cli_LDADD = \
+katkoyn_cli_LDADD = \
   $(LIBNYANCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBNYANCOIN_UTIL) \
   $(LIBNYANCOIN_CRYPTO)
 
-nyancoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+katkoyn_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-nyancoin_tx_SOURCES = bitcoin-tx.cpp
-nyancoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-nyancoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-nyancoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+katkoyn_tx_SOURCES = bitcoin-tx.cpp
+katkoyn_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+katkoyn_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+katkoyn_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-nyancoin_tx_SOURCES += bitcoin-tx-res.rc
+katkoyn_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-nyancoin_tx_LDADD = \
+katkoyn_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBNYANCOIN_COMMON) \
   $(LIBNYANCOIN_UTIL) \
@@ -426,7 +426,7 @@ nyancoin_tx_LDADD = \
   $(LIBNYANCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-nyancoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+katkoyn_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
