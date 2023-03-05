@@ -610,7 +610,7 @@ void SendCoinsDialog::updateGlobalFeeVariables()
         CoinControlDialog::coinControl->nMinimumTotalFee = 0;
 
         // show the estimated required time for confirmation
-        // Nyancoin: We manually set height well past the last hard fork here
+        // Nyncoin: We manually set height well past the last hard fork here
         ui->confirmationTargetLabel->setText(GUIUtil::formatDurationStr(nConfirmTarget * Params().GetConsensus(400000).nPowTargetSpacing) + " / " + tr("%n block(s)", "", nConfirmTarget));
     }
     else
@@ -772,7 +772,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Nyancoin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid KatKoyn address"));
         }
         else // Valid address
         {
