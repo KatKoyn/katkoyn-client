@@ -107,7 +107,7 @@ jobs:
             goal: install
           - name: x86_64-macos
             host: x86_64-apple-darwin11
-            os: ubuntu-22.04
+            os: ubuntu-18.04
             packages: cmake imagemagick libcap-dev librsvg2-bin libz-dev libtiff-tools libtinfo5 python3-setuptools xorriso libtinfo5
             run-tests: false
             dep-opts: ""
@@ -132,11 +132,11 @@ jobs:
         run: ${{ matrix.postinstall }}
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: SDK cache
         if: ${{ matrix.sdk }}
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         env:
           cache-name: sdk
         with:
@@ -151,7 +151,7 @@ jobs:
           curl --location --fail $SDK_URL/MacOSX${{ matrix.sdk }}.sdk.tar.gz -o depends/sdk-sources/MacOSX${{ matrix.sdk }}.sdk.tar.gz
           tar -C depends/SDKs -xf depends/sdk-sources/MacOSX${{ matrix.sdk }}.sdk.tar.gz
       - name: Dependency cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         env:
           cache-name: depends
         with:
@@ -162,7 +162,7 @@ jobs:
         run: |
           make $MAKEJOBS -C depends HOST=${{ matrix.host }} ${{ matrix.dep-opts }}
       - name: CCache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         env:
           cache-name: ccache
         with:
