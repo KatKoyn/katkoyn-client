@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Choisissez une adresse où envoyer les nyancoins</translation>
+        <translation>Choisissez une adresse où envoyer les katkoyns</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Choisissez une adresse où recevoir les nyancoins</translation>
+        <translation>Choisissez une adresse où recevoir les katkoyns</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Adresses de réception</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ceci sont vos addresses Nyancoin pour envoyer vos paiements. Il faut toujours verifier les montants et l'addresse de reception avant de valider la transaction.</translation>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ceci sont vos addresses KatKoyn pour envoyer vos paiements. Il faut toujours verifier les montants et l'addresse de reception avant de valider la transaction.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ceci sont vos addresses Nyancoin pour recevoir vos paiements. Il est recommandé d'utiliser une nouvelle adresse de recepetion pour chaque transaction</translation>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ceci sont vos addresses KatKoyn pour recevoir vos paiements. Il est recommandé d'utiliser une nouvelle adresse de recepetion pour chaque transaction</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Confirmer le chiffrement du porte-monnaie</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
-        <translation>Attention : Si vous chiffrez votre portefeuille et que vous perdez votre mot de passe vous &lt;b&gt; PERDREZ TOUS VOS NYANCOINS&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
+        <translation>Attention : Si vous chiffrez votre portefeuille et que vous perdez votre mot de passe vous &lt;b&gt; PERDREZ TOUS VOS KATKOYN&lt;/b&gt; !</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,7 +184,7 @@
         <translation>Portefeuille chiffré</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nyancoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your katkoyn from being stolen by malware infecting your computer.</source>
         <translation>%1 va à présent se fermer pour terminer la procédure de cryptage. N'oubliez pas que le chiffrement de votre porte-monnaie ne peut pas fournir une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
@@ -342,7 +342,7 @@
         <translation>Réindexer les blocs sur le disque...</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Envoyer des pièces à une adresse Nyancoin</translation>
     </message>
     <message>
@@ -394,12 +394,12 @@
         <translation>Crypter les clé privées qui appartiennent votre portefeuille</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
-        <translation>Signer vos messages avec vos adresses Nyancoin pour prouver que vous les détenez</translation>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
+        <translation>Signer vos messages avec vos adresses KatKoyn pour prouver que vous les détenez</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
-        <translation>Vérifier les messages pour s'assurer qu'ils soient signés avec les adresses Nyancoin spécifiées</translation>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
+        <translation>Vérifier les messages pour s'assurer qu'ils soient signés avec les adresses KatKoyn spécifiées</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -418,8 +418,8 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
-        <translation>Demander des paiements (générer QR codes et nyancoin: URIs)</translation>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
+        <translation>Demander des paiements (générer QR codes et katkoyn: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,15 +430,15 @@
         <translation>Afficher la liste des labels et adresses de réception utilisées</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
-        <translation>Ouvrir un nyancoin: URI ou demande de paiement</translation>
+        <source>Open a katkoyn: URI or payment request</source>
+        <translation>Ouvrir un katkoyn: URI ou demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Options de ligne de commande</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Nyancoin network</source>
+        <source>%n active connection(s) to KatKoyn network</source>
         <translation><numerusform>%n connexion active avec le réseau Nyancoin</numerusform><numerusform>%n connexions actives avec le réseau Nyancoin</numerusform></translation>
     </message>
     <message>
@@ -478,7 +478,7 @@
         <translation>À jour</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Nyancoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible KatKoyn command-line options</source>
         <translation>Afficher le %1 message d'aide pour récupérer une liste des options de ligne de commande Nyancoin</translation>
     </message>
     <message>
@@ -548,8 +548,8 @@
         <translation>Le porte-monnaie est &lt;b&gt;chiffré&lt;/b&gt; et est actuellement &lt;b&gt;verrouillé&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Nyancoin can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale a eu lieu. Nyancoin ne peut plus continuer en toute sécurité et va s'éteindre</translation>
+        <source>A fatal error occurred. KatKoyn can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale a eu lieu. KatKoyn ne peut plus continuer en toute sécurité et va s'éteindre</translation>
     </message>
 </context>
 <context>
@@ -742,8 +742,8 @@
         <translation>Éditer l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Nyancoin address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse Nyancoin valide.</translation>
+        <source>The entered address "%1" is not a valid KatKoyn address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse KatKoyn valide.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -944,8 +944,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically open the Nyancoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Nyancoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the KatKoyn client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client KatKoyn automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1144,8 +1144,8 @@
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Nyancoin address (e.g. %1)</source>
-        <translation>Entrer une adresse Nyancoin (e.g. %1)</translation>
+        <source>Enter a KatKoyn address (e.g. %1)</source>
+        <translation>Entrer une adresse KatKoyn (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1709,8 +1709,8 @@
         <translation>Payer seulement les frais obligatoire de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Nyancoin address</source>
-        <translation>Attention: Adresse Nyancoin Invalide</translation>
+        <source>Warning: Invalid KatKoyn address</source>
+        <translation>Attention: Adresse KatKoyn Invalide</translation>
     </message>
     <message>
         <source>(no label)</source>

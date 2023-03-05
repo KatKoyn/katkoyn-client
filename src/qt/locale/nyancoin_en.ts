@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -216,7 +216,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -232,7 +232,7 @@
     </message>
     <message>
         <location line="-56"/>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nyancoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your katkoyn from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -435,8 +435,8 @@
     </message>
     <message>
         <location line="-511"/>
-        <source>Send coins to a Nyancoin address</source>
-        <translation>Send coins to a Nyancoin address</translation>
+        <source>Send coins to a KatKoyn address</source>
+        <translation>Send coins to a KatKoyn address</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -500,13 +500,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
-        <translation>Sign messages with your Nyancoin addresses to prove you own them</translation>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
+        <translation>Sign messages with your KatKoyn addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Nyancoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
+        <translation>Verify messages to ensure they were signed with specified KatKoyn addresses</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -530,7 +530,7 @@
     </message>
     <message>
         <location line="-158"/>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -545,7 +545,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a nyancoin: URI or payment request</source>
+        <source>Open a katkoyn: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -555,10 +555,10 @@
     </message>
     <message numerus="yes">
         <location line="+357"/>
-        <source>%n active connection(s) to Nyancoin network</source>
+        <source>%n active connection(s) to KatKoyn network</source>
         <translation>
-            <numerusform>%n active connection to Nyancoin network</numerusform>
-            <numerusform>%n active connections to Nyancoin network</numerusform>
+            <numerusform>%n active connection to KatKoyn network</numerusform>
+            <numerusform>%n active connections to KatKoyn network</numerusform>
         </translation>
     </message>
     <message>
@@ -616,7 +616,7 @@
     </message>
     <message>
         <location line="-441"/>
-        <source>Show the %1 help message to get a list with possible Nyancoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible KatKoyn command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -696,7 +696,7 @@
     </message>
     <message>
         <location filename="../nyancoin.cpp" line="+531"/>
-        <source>A fatal error occurred. Nyancoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. KatKoyn can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -939,7 +939,7 @@
     </message>
     <message>
         <location line="+72"/>
-        <source>The entered address &quot;%1&quot; is not a valid Nyancoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid KatKoyn address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1114,7 +1114,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>%1 will download and store a copy of the Nyancoin block chain.</source>
+        <source>%1 will download and store a copy of the KatKoyn block chain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1158,12 +1158,12 @@
     </message>
     <message>
         <location line="+119"/>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the nyancoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the katkoyn network, as detailed below.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+19"/>
-        <source>Attempting to spend nyancoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend katkoyn that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1381,8 +1381,8 @@
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Nyancoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Nyancoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the KatKoyn client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the KatKoyn client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1401,7 +1401,7 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Nyancoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the KatKoyn network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1449,7 +1449,7 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Nyancoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the KatKoyn network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1584,8 +1584,8 @@
     <message>
         <location line="+62"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nyancoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Nyancoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KatKoyn network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the KatKoyn network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1682,7 +1682,7 @@
     </message>
     <message>
         <location line="-398"/>
-        <source>Cannot start nyancoin: click-to-pay handler</source>
+        <source>Cannot start katkoyn: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1704,7 +1704,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Nyancoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid KatKoyn address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1836,7 +1836,7 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+130"/>
-        <source>Enter a Nyancoin address (e.g. %1)</source>
+        <source>Enter a KatKoyn address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2422,7 +2422,7 @@
     <message>
         <location line="-3"/>
         <location line="+46"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nyancoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the KatKoyn network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2730,7 +2730,7 @@
     <message>
         <location line="+78"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for nyancoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for katkoyn transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2951,7 +2951,7 @@
     </message>
     <message>
         <location line="+101"/>
-        <source>Warning: Invalid Nyancoin address</source>
+        <source>Warning: Invalid KatKoyn address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3006,7 +3006,7 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>The Nyancoin address to send the payment to</source>
+        <source>The KatKoyn address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3033,7 +3033,7 @@
     </message>
     <message>
         <location line="-1028"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less nyancoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less katkoyn than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3068,7 +3068,7 @@
     </message>
     <message>
         <location line="+54"/>
-        <source>A message that was attached to the nyancoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nyancoin network.</source>
+        <source>A message that was attached to the katkoyn: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the KatKoyn network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3125,12 +3125,12 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive nyancoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive katkoyn sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Nyancoin address to sign the message with</source>
+        <source>The KatKoyn address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3172,8 +3172,8 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Nyancoin address</source>
-        <translation>Sign the message to prove you own this Nyancoin address</translation>
+        <source>Sign the message to prove you own this KatKoyn address</source>
+        <translation>Sign the message to prove you own this KatKoyn address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3203,13 +3203,13 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>The Nyancoin address the message was signed with</source>
+        <source>The KatKoyn address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Nyancoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Nyancoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified KatKoyn address</source>
+        <translation>Verify the message to ensure it was signed with the specified KatKoyn address</translation>
     </message>
     <message>
         <location line="+3"/>

@@ -62,12 +62,12 @@
         <translation>Adresele de primire</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Acestea sunt adresele tale Nyancoin pentru trimiterea plății. Verifică mereu suma și adresa de primire înainte de trimiterea monedelor.</translation>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Acestea sunt adresele tale KatKoyn pentru trimiterea plății. Verifică mereu suma și adresa de primire înainte de trimiterea monedelor.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Acestea sunt adresele tale Nyancoin pentru primirea plăților. Este recomandată folosirea de noi adrese de primire pentru fiecare tranzacție.</translation>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Acestea sunt adresele tale KatKoyn pentru primirea plăților. Este recomandată folosirea de noi adrese de primire pentru fiecare tranzacție.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>Confirmă criptarea portofelului</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
-        <translation>Atenție: Dacă îți criptezi portofelul și uiți parola, îți vei &lt;b&gt; PIERDE TOȚI NYANCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
+        <translation>Atenție: Dacă îți criptezi portofelul și uiți parola, îți vei &lt;b&gt; PIERDE TOȚI KATKOYN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -286,7 +286,7 @@
         <translation>Click pentru a permite, din nou, activitate rețelei.</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Trimite monedele către o adresă Nyancoin</translation>
     </message>
     <message>
@@ -338,12 +338,12 @@
         <translation>Criptează cheile private care aparțin portofelului tău.</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
-        <translation>Semnează mesajele cu adresa ta de Nyancoin pentru a face dovada că îți aparțin.</translation>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
+        <translation>Semnează mesajele cu adresa ta de KatKoyn pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
-        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Nyancoin specificată.</translation>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de KatKoyn specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Ajutor</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
-        <translation>Cerere plată (generează coduri QR și nyancoin: URIs)</translation>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
+        <translation>Cerere plată (generează coduri QR și katkoyn: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -370,8 +370,8 @@
         <translation>Afișează lista adreselor de primire utilizate și etichetele.</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
-        <translation>Deschide un nyancoin: URI sau cerere de plată</translation>
+        <source>Open a katkoyn: URI or payment request</source>
+        <translation>Deschide un katkoyn: URI sau cerere de plată</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -644,8 +644,8 @@
         <translation>formular</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the nyancoin network, as detailed below.</source>
-        <translation>Posibil ca tranzacțiile recente să nu fie vizibile, încă, astfel bilanțul portofelului tău poate fi incorect. Aceste informații vor fi corecte o dată ce portofelul tău a încheiat sincronizarea cu rețeaua nyancoin, conform descrierii de mai jos.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the katkoyn network, as detailed below.</source>
+        <translation>Posibil ca tranzacțiile recente să nu fie vizibile, încă, astfel bilanțul portofelului tău poate fi incorect. Aceste informații vor fi corecte o dată ce portofelul tău a încheiat sincronizarea cu rețeaua katkoyn, conform descrierii de mai jos.</translation>
     </message>
     <message>
         <source>Unknown...</source>

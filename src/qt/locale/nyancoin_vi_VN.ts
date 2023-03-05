@@ -62,12 +62,12 @@
         <translation>Địa chỉ nhận</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Đây là các địa chỉ Nyancoin để gửi bạn gửi tiền. Trước khi gửi bạn nên kiểm tra lại số tiền bạn muốn gửi và địa chỉ nyancoin của người nhận.</translation>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Đây là các địa chỉ KatKoyn để gửi bạn gửi tiền. Trước khi gửi bạn nên kiểm tra lại số tiền bạn muốn gửi và địa chỉ katkoyn của người nhận.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Đây là các địa chỉ Nyancoin để bạn nhận tiền. Với mỗi giao dịch, bạn nên dùng một địa chỉ Nyancoin mới để nhận tiền.</translation>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Đây là các địa chỉ KatKoyn để bạn nhận tiền. Với mỗi giao dịch, bạn nên dùng một địa chỉ KatKoyn mới để nhận tiền.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -331,7 +331,7 @@ Ví của bạn chưa được mã hóa.</translation>
         <translation>Đánh chỉ số (indexing) lại các khối (blocks) trên ổ đĩa ...</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Gửi coins đến tài khoản Nyancoin</translation>
     </message>
     <message>
@@ -383,12 +383,12 @@ Ví của bạn chưa được mã hóa.</translation>
         <translation>Mã hoá các khoá bí mật trong Ví của bạn.</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
-        <translation>Dùng địa chỉ Nyancoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
+        <translation>Dùng địa chỉ KatKoyn của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
-        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Nyancoin xác định.</translation>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
+        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ KatKoyn xác định.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -407,7 +407,7 @@ Ví của bạn chưa được mã hóa.</translation>
         <translation>Thanh công cụ (toolbar)</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
         <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Nyancoin: URLs)</translation>
     </message>
     <message>
@@ -419,15 +419,15 @@ Ví của bạn chưa được mã hóa.</translation>
         <translation>Hiện thỉ danh sách các địa chỉ và nhãn đã dùng để nhận.</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
-        <translation>Mở nyancoin:URL hoặc yêu cầu thanh toán</translation>
+        <source>Open a katkoyn: URI or payment request</source>
+        <translation>Mở katkoyn:URL hoặc yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>7Tùy chọn dòng lệnh</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Nyancoin network</source>
+        <source>%n active connection(s) to KatKoyn network</source>
         <translation><numerusform>%n liên kết hoạt động với mạng lưới Nyancoin</numerusform></translation>
     </message>
     <message>
@@ -471,7 +471,7 @@ Ví của bạn chưa được mã hóa.</translation>
         <translation>Đã cập nhật</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Nyancoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible KatKoyn command-line options</source>
         <translation>Hiển thị tin nhắn trợ giúp %1 để có được danh sách với các tùy chọn dòng lệnh Nyancoin.</translation>
     </message>
     <message>
@@ -705,8 +705,8 @@ Ví của bạn chưa được mã hóa.</translation>
         <translation>Ví</translation>
     </message>
     <message>
-        <source>Connect to the Nyancoin network through a SOCKS5 proxy.</source>
-        <translation>Kết nối đến máy chủ Nyancoin thông qua SOCKS5 proxy.</translation>
+        <source>Connect to the KatKoyn network through a SOCKS5 proxy.</source>
+        <translation>Kết nối đến máy chủ KatKoyn thông qua SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>

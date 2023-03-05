@@ -62,11 +62,11 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dies sind Ihre Nyancoin-Adressen zum Senden von Zahlungen. Überprüfen Sie immer die Menge und die Empfangsadresse, bevor Sie Nyancoins senden.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dies sind Ihre Nyancoin-Adressen für den Empfang von Zahlungen. Es wird empfohlen, für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>Brieftaschenverschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
         <translation>Achtung: Wenn Sie Ihre Wallet verschlüsseln und das Passwort verlieren, gehen &lt;b&gt;alle Ihre Nyancoins verloren&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -330,7 +330,7 @@
         <translation>Reindexiere Blöcke auf dem Datenträger...</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Coins an eine Nyancoin-Adresse senden</translation>
     </message>
     <message>
@@ -382,11 +382,11 @@
         <translation>Verschlüssele die Private Keys, die zu deiner Brieftasche gehören</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
         <translation>Nachrichten mit Ihrer Nyancoin-Adresse signieren, um zu beweisen, dass sie Ihnen gehören</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
         <translation>Überprüfen Sie Nachrichten, um sicherzustellen, dass sie mit den angegebenen Nyancoin-Adressen signiert wurden</translation>
     </message>
     <message>
@@ -468,8 +468,8 @@
         <translation>Überweisung empfangen</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Nyancoin can no longer continue safely and will quit.</source>
-        <translation>Ein schwerwiegender Fehler ist aufgetreten. Nyancoin kann nicht mehr sicher fortfahren und beendet sich.</translation>
+        <source>A fatal error occurred. KatKoyn can no longer continue safely and will quit.</source>
+        <translation>Ein schwerwiegender Fehler ist aufgetreten. KatKoyn kann nicht mehr sicher fortfahren und beendet sich.</translation>
     </message>
 </context>
 <context>
@@ -652,7 +652,7 @@
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a Nyancoin address (e.g. %1)</source>
+        <source>Enter a KatKoyn address (e.g. %1)</source>
         <translation>Nyancoin Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>

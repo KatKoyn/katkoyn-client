@@ -62,11 +62,11 @@
         <translation>Адресе за примање</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ово су ваше Биткоин адресе за слање уплата. Увек добро проверите износ и адресу на коју шаљете пре него што пошаљете уплату.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ово су ваше Биткоин адресе за примање уплате. Препоручује се да се за сваку трансакцију користи нова адреса.</translation>
     </message>
     <message>
@@ -172,7 +172,7 @@
         <translation>Потврди шифрирање новчаника</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
         <translation>Упозорење: Уколико шифрирате новчаник и изгубите своју лозинку, &lt;b&gt;ИЗГУБИЋЕТЕ СВЕ СВОЈЕ БИТКОИНЕ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Новчаник шифриран</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nyancoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your katkoyn from being stolen by malware infecting your computer.</source>
         <translation>%1 ће се сада затворити како би се завршио процес шифрирања.  Запамтите да шифрирањем свог новчаника не можете у потпуности заштити своје биткоине од крађе од стране злоћудних програма и компјутерских инфекција.</translation>
     </message>
     <message>
@@ -342,7 +342,7 @@
         <translation>Поново идексирање блокова на диску.</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Пошаљите новац на Биткоин адресу</translation>
     </message>
     <message>
@@ -394,11 +394,11 @@
         <translation>Шифрирај приватни клуљ који припада новчанику.</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
         <translation>Потписуј поруку са своје Биткоин адресе као доказ да си њихов власник</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
         <translation>Верификуј поруке и утврди да ли су потписане од стране спецификованих Биткоин адреса</translation>
     </message>
     <message>
@@ -418,7 +418,7 @@
         <translation>Трака са картицама</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
         <translation>Затражи плаћање (генерише QR кодове и биткоин: URI-е)</translation>
     </message>
     <message>
@@ -430,7 +430,7 @@
         <translation>Прегледајте листу коришћених адреса и етикета за пријем уплата</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
+        <source>Open a katkoyn: URI or payment request</source>
         <translation>Отворите биткоин: URI или захтев за плаћање</translation>
     </message>
     <message>
@@ -540,7 +540,7 @@
         <translation>Новчаник јс &lt;b&gt;шифрован&lt;/b&gt; и тренутно &lt;b&gt;закључан&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Nyancoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. KatKoyn can no longer continue safely and will quit.</source>
         <translation>Дошло је до критичне грешке. Биткоин не може безбедно да настави са радом и искључиће се.</translation>
     </message>
 </context>

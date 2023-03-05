@@ -58,12 +58,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones Nyancoin para realizar pagos. Verifica siempre el monto y la dirección de recepción antes de enviar monedas. </translation>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones KatKoyn para realizar pagos. Verifica siempre el monto y la dirección de recepción antes de enviar monedas. </translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son tus direcciones Nyancoin para recibir pagos. Es recomendable usar una nueva dirección de recibo para cada transacción.</translation>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son tus direcciones KatKoyn para recibir pagos. Es recomendable usar una nueva dirección de recibo para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -154,7 +154,7 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Enviar monedas a una dirección Nyancoin</translation>
     </message>
     <message>
@@ -198,12 +198,12 @@
         <translation>Encriptar las llaves privadas que pertenecen a tu billetera</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
-        <translation>Firma mensajes con tus direcciones Nyancoin para probar que eres dueño de ellas</translation>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
+        <translation>Firma mensajes con tus direcciones KatKoyn para probar que eres dueño de ellas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
-        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Nyancoin especificas</translation>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
+        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones KatKoyn especificas</translation>
     </message>
     <message>
         <source>&amp;File</source>

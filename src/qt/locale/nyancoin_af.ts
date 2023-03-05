@@ -62,11 +62,11 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Nyancoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u KatKoyn betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Hierdie is die adresse waar u Nyancoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
@@ -172,8 +172,8 @@
         <translation>Bevestig dat die beursie gekodifiseer is</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
-        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U NYANCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
+        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U KATKOYN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -334,8 +334,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
-        <translation>Stuur munte na 'n Nyancoin adres</translation>
+        <source>Send coins to a KatKoyn address</source>
+        <translation>Stuur munte na 'n KatKoyn adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -386,12 +386,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Nyancoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u KatKoyn adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Nyancoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde KatKoyn adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -410,8 +410,8 @@
         <translation>Orebalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en nyancoin: URI's)</translation>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en katkoyn: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,8 +422,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
-        <translation>Skep 'n nyancoin: URI of betalingsversoek</translation>
+        <source>Open a katkoyn: URI or payment request</source>
+        <translation>Skep 'n katkoyn: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -516,8 +516,8 @@
         <translation>Inkomende transaksie</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Nyancoin can no longer continue safely and will quit.</source>
-        <translation>'N fatale fout het voorgekom. Nyancoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
+        <source>A fatal error occurred. KatKoyn can no longer continue safely and will quit.</source>
+        <translation>'N fatale fout het voorgekom. KatKoyn kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
     </message>
 </context>
 <context>
@@ -710,8 +710,8 @@
         <translation>Wysig stuur adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Nyancoin address.</source>
-        <translation>Die ingevoerde adres "%1" is nie 'n geldige Nyancoin adres nie.</translation>
+        <source>The entered address "%1" is not a valid KatKoyn address.</source>
+        <translation>Die ingevoerde adres "%1" is nie 'n geldige KatKoyn adres nie.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1188,8 +1188,8 @@
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Nyancoin address (e.g. %1)</source>
-        <translation>Voer in 'n Nyancoin adres (bv. %1)</translation>
+        <source>Enter a KatKoyn address (e.g. %1)</source>
+        <translation>Voer in 'n KatKoyn adres (bv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>

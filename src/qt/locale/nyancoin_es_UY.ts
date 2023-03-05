@@ -118,7 +118,7 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Enviar monedas a una dirección Nyancoin</translation>
     </message>
     <message>

@@ -62,11 +62,11 @@
         <translation>Mottaksadresser</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dette er dine Nyancoin-adresser for sending av betalinger. Sjekk alltid beløpet og mottakeradressen før sending av mynter.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine Nyancoin-adresser for å sende betalinger med. Det er anbefalt å bruke en ny mottaksadresse for hver transaksjon.</translation>
     </message>
     <message>
@@ -172,8 +172,8 @@
         <translation>Bekreft kryptering av lommebok</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
-        <translation>Advarsel: Hvis du krypterer lommeboken og mister adgangsfrasen, så vil du &lt;b&gt;MISTE ALLE DINE NYANCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
+        <translation>Advarsel: Hvis du krypterer lommeboken og mister adgangsfrasen, så vil du &lt;b&gt;MISTE ALLE DINE KATKOYN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,8 +184,8 @@
         <translation>Lommebok kryptert</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nyancoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine nyancoins fra å bli stjålet om skadevare infiserer datamaskinen din.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your katkoyn from being stolen by malware infecting your computer.</source>
+        <translation>%1 vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine katkoyn fra å bli stjålet om skadevare infiserer datamaskinen din.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -342,7 +342,7 @@
         <translation>Reindekserer blokker på harddisk...</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Send til en Nyancoin-adresse</translation>
     </message>
     <message>
@@ -394,11 +394,11 @@
         <translation>Krypter de private nøklene som tilhører lommeboken din</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
         <translation>Signer en melding med Nyancoin-adressene dine for å bevise at du eier dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
         <translation>Bekreft meldinger for å være sikker på at de ble signert av en angitt Nyancoin-adresse</translation>
     </message>
     <message>
@@ -418,8 +418,8 @@
         <translation>Verktøylinje for faner</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
-        <translation>Forespør betalinger (genererer QR-koder og nyancoin: URIer)</translation>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
+        <translation>Forespør betalinger (genererer QR-koder og katkoyn: URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,7 +430,7 @@
         <translation>Vis listen over bruke mottaksadresser og merkelapper</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
+        <source>Open a katkoyn: URI or payment request</source>
         <translation>Åpne en Nyancoin: URI eller betalingsetterspørring</translation>
     </message>
     <message>
@@ -438,7 +438,7 @@
         <translation>&amp;Kommandolinjevalg</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Nyancoin network</source>
+        <source>%n active connection(s) to KatKoyn network</source>
         <translation><numerusform>%n aktiv forbindelse til Nyancoin-nettverket</numerusform><numerusform>%n aktive forbindelser til Nyancoin-nettverket</numerusform></translation>
     </message>
     <message>
@@ -482,8 +482,8 @@
         <translation>Oppdatert</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Nyancoin command-line options</source>
-        <translation>Vis %1 hjelpemeldingen for å få en liste med mulige Nyancoin kommandolinjevalg.</translation>
+        <source>Show the %1 help message to get a list with possible KatKoyn command-line options</source>
+        <translation>Vis %1 hjelpemeldingen for å få en liste med mulige KatKoyn kommandolinjevalg.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -552,8 +552,8 @@
         <translation>Lommeboken er &lt;b&gt;kryptert&lt;/b&gt; og for tiden &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Nyancoin can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Nyancoin kan ikke lenger trygt fortsette, og må derfor avslutte.</translation>
+        <source>A fatal error occurred. KatKoyn can no longer continue safely and will quit.</source>
+        <translation>En fatal feil har inntruffet. KatKoyn kan ikke lenger trygt fortsette, og må derfor avslutte.</translation>
     </message>
 </context>
 <context>
@@ -746,7 +746,7 @@
         <translation>Rediger utsendingsadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Nyancoin address.</source>
+        <source>The entered address "%1" is not a valid KatKoyn address.</source>
         <translation>Den angitte adressen "%1" er ikke en gyldig Nyancoin-adresse.</translation>
     </message>
     <message>
@@ -887,8 +887,8 @@
         <translation>Omtrent %1GB data vil bli lagret i denne mappen.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Nyancoin block chain.</source>
-        <translation>%1 vil laste ned og lagre en kopi av Nyancoin blokkjeden.</translation>
+        <source>%1 will download and store a copy of the KatKoyn block chain.</source>
+        <translation>%1 vil laste ned og lagre en kopi av KatKoyn blokkjeden.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -918,12 +918,12 @@
         <translation>Skjema</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the nyancoin network, as detailed below.</source>
-        <translation>Det kan hende nylige transaksjoner ikke vises enda, og at lommeboksaldoen dermed blir uriktig. Denne informasjonen vil rette seg når synkronisering av lommeboka mot nyancoin-nettverket er fullført, som anvist nedenfor.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the katkoyn network, as detailed below.</source>
+        <translation>Det kan hende nylige transaksjoner ikke vises enda, og at lommeboksaldoen dermed blir uriktig. Denne informasjonen vil rette seg når synkronisering av lommeboka mot katkoyn-nettverket er fullført, som anvist nedenfor.</translation>
     </message>
     <message>
-        <source>Attempting to spend nyancoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Forsøk på å bruke nyancoin som er påvirket av transaksjoner som ikke er vist enda godtas ikke av nettverket.</translation>
+        <source>Attempting to spend katkoyn that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Forsøk på å bruke katkoyn som er påvirket av transaksjoner som ikke er vist enda godtas ikke av nettverket.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1092,8 +1092,8 @@
         <translation>&amp;Bruk ubekreftet veksel</translation>
     </message>
     <message>
-        <source>Automatically open the Nyancoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åpne automatisk Nyancoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
+        <source>Automatically open the KatKoyn client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åpne automatisk KatKoyn klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1108,7 +1108,7 @@
         <translation>Tillatt innkommend&amp;e tilkoblinger</translation>
     </message>
     <message>
-        <source>Connect to the Nyancoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the KatKoyn network through a SOCKS5 proxy.</source>
         <translation>Koble til Nyancoin-nettverket gjennom en SOCKS5 proxy.</translation>
     </message>
     <message>
@@ -1144,7 +1144,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Nyancoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the KatKoyn network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Koble til Nyancoin-nettverket gjennom en separat SOCKS5 mellomtjener for Tor skjulte tjenester.</translation>
     </message>
     <message>
@@ -1181,7 +1181,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av nyancoins.</translation>
+        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av katkoyns.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1251,7 +1251,7 @@
         <translation>Skjema</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nyancoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KatKoyn network after a connection is established, but this process has not completed yet.</source>
         <translation>Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med Nyancoin-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
     </message>
     <message>
@@ -1326,8 +1326,8 @@
         <translation>Feil ved betalingsforespørsel</translation>
     </message>
     <message>
-        <source>Cannot start nyancoin: click-to-pay handler</source>
-        <translation>Kan ikke starte nyancoin: Klikk-og-betal håndterer</translation>
+        <source>Cannot start katkoyn: click-to-pay handler</source>
+        <translation>Kan ikke starte katkoyn: Klikk-og-betal håndterer</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1342,8 +1342,8 @@
         <translation>Ugyldig betalingsadresse %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Nyancoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke fortolkes! Dette kan være forårsaket av en ugyldig nyancoin-adresse eller feilformede URI-parametre.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid KatKoyn address or malformed URI parameters.</source>
+        <translation>URI kan ikke fortolkes! Dette kan være forårsaket av en ugyldig katkoyn-adresse eller feilformede URI-parametre.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1444,7 +1444,7 @@
         <translation>Beløp</translation>
     </message>
     <message>
-        <source>Enter a Nyancoin address (e.g. %1)</source>
+        <source>Enter a KatKoyn address (e.g. %1)</source>
         <translation>Oppgi en Nyancoin-adresse (f.eks. %1)</translation>
     </message>
     <message>
@@ -1868,7 +1868,7 @@
         <translation>&amp;Melding:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nyancoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the KatKoyn network.</source>
         <translation>En valgfri melding å tilknytte betalingsetterspørringen, som vil bli vist når forespørselen er åpnet. Meldingen vil ikke bli sendt med betalingen over Nyancoin-nettverket.</translation>
     </message>
     <message>
@@ -2105,7 +2105,7 @@
         <translation>Skjul</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for nyancoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for katkoyn transactions than the network can process.</source>
         <translation>Betaling av bare minimumsavgiften går helt fint så lenge det er mindre transaksjonsvolum enn plass i blokkene. Men vær klar over at dette kan ende opp i en transaksjon som aldri blir bekreftet når det er mer etterspørsel etter Nyancoin-transaksjoner enn nettverket kan behandle.</translation>
     </message>
     <message>
@@ -2277,8 +2277,8 @@
         <translation><numerusform>Antatt bekreftelsesbegynnelse innen %n blokk.</numerusform><numerusform>Antatt bekreftelsesbegynnelse innen %n blokker.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Nyancoin address</source>
-        <translation>Advarsel Ugyldig nyancoin-adresse</translation>
+        <source>Warning: Invalid KatKoyn address</source>
+        <translation>Advarsel Ugyldig katkoyn-adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2320,7 +2320,7 @@
         <translation>Dette er en normal betaling.</translation>
     </message>
     <message>
-        <source>The Nyancoin address to send the payment to</source>
+        <source>The KatKoyn address to send the payment to</source>
         <translation>Nyancoin-adressen betalingen skal sendes til</translation>
     </message>
     <message>
@@ -2340,8 +2340,8 @@
         <translation>Fjern denne oppføringen</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less nyancoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Gebyret vil bli trukket fra beløpet som blir sendt. Mottakeren vil motta mindre nyancoins enn det du skriver inn i beløpsfeltet. Hvis det er valgt flere mottakere, deles gebyret likt.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less katkoyn than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Gebyret vil bli trukket fra beløpet som blir sendt. Mottakeren vil motta mindre katkoyn enn det du skriver inn i beløpsfeltet. Hvis det er valgt flere mottakere, deles gebyret likt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2368,8 +2368,8 @@
         <translation>Skriv inn en merkelapp for denne adressen for å legge den til listen av brukte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the nyancoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nyancoin network.</source>
-        <translation>En melding som var tilknyttet nyancoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Nyancoin-nettverket.</translation>
+        <source>A message that was attached to the katkoyn: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the KatKoyn network.</source>
+        <translation>En melding som var tilknyttet katkoynen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Nyancoin-nettverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2413,11 +2413,11 @@
         <translation>&amp;Signer Melding</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive nyancoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signere meldinger/avtaler med adresser for å bevise at du kan motta nyancoins sendt til dem. Vær forsiktig med å signere noe vagt eller tilfeldig, siden phishing-angrep kan prøve å lure deg til å signere din identitet over til dem. Bare signer fullt detaljerte utsagn som du er enig i.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive katkoyn sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Du kan signere meldinger/avtaler med adresser for å bevise at du kan motta katkoyn sendt til dem. Vær forsiktig med å signere noe vagt eller tilfeldig, siden phishing-angrep kan prøve å lure deg til å signere din identitet over til dem. Bare signer fullt detaljerte utsagn som du er enig i.</translation>
     </message>
     <message>
-        <source>The Nyancoin address to sign the message with</source>
+        <source>The KatKoyn address to sign the message with</source>
         <translation>Nyancoin-adressen meldingen skal signeres med</translation>
     </message>
     <message>
@@ -2449,7 +2449,7 @@
         <translation>Kopier valgt signatur til utklippstavle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nyancoin address</source>
+        <source>Sign the message to prove you own this KatKoyn address</source>
         <translation>Signer meldingen for å bevise at du eier denne Nyancoin-adressen</translation>
     </message>
     <message>
@@ -2473,11 +2473,11 @@
         <translation>Skriv inn mottakerens adresse, melding (forsikre deg om at du kopier linjeskift, mellomrom, faner osv. nøyaktig) og underskrift nedenfor for å bekrefte meldingen. Vær forsiktig så du ikke leser mer ut av signaturen enn hva som er i den signerte meldingen i seg selv, for å unngå å bli lurt av et man-in-the-middle-angrep. Merk at dette bare beviser at den som signerer kan motta med adressen, dette beviser ikke hvem som har sendt transaksjoner!</translation>
     </message>
     <message>
-        <source>The Nyancoin address the message was signed with</source>
+        <source>The KatKoyn address the message was signed with</source>
         <translation>Nyancoin-adressen meldingen ble signert med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nyancoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KatKoyn address</source>
         <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Nyancoin-adressen</translation>
     </message>
     <message>
@@ -2703,7 +2703,7 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Genererte nyancoins må modne %1 blokker før de kan brukes. Da du genererte denne blokken ble den kringkastet på nettverket for å bli lagt til i kjeden av blokker. Hvis den ikke kommer med i kjeden vil den endre seg til "ikke akseptert", og vil ikke kunne brukes. Dette vil noen ganger skje hvis en annen node genererer en blokk innen noen sekunder av din.</translation>
+        <translation>Genererte katkoyn må modne %1 blokker før de kan brukes. Da du genererte denne blokken ble den kringkastet på nettverket for å bli lagt til i kjeden av blokker. Hvis den ikke kommer med i kjeden vil den endre seg til "ikke akseptert", og vil ikke kunne brukes. Dette vil noen ganger skje hvis en annen node genererer en blokk innen noen sekunder av din.</translation>
     </message>
     <message>
         <source>Debug information</source>

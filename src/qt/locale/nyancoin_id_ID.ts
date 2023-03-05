@@ -62,12 +62,12 @@
         <translation>Alamat-alamat penerima</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ini adalah alamat- alamat Nyancoin Anda untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ini adalah alamat- alamat KatKoyn Anda untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ini adalah alamat- alamat Nyancoin Anda untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap melakukan transaksi.</translation>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ini adalah alamat- alamat KatKoyn Anda untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap melakukan transaksi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,7 +168,7 @@
         <translation>Konfirmasi pengenkripsian dompet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
         <translation>Peringatan: Jika Anda enkripsi dompet Anda dan lupa kata sandi anda, Anda akan &lt;b&gt;KEHILANGAN SEMUA NYANCOIN ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -180,7 +180,7 @@
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nyancoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your katkoyn from being stolen by malware infecting your computer.</source>
         <translation>%1 sekarang akan ditutup untuk menyelesaikan proses enkripsi. Ingatlah bahwa mengenkripsi dompet Anda tidak dapat sepenuhnya melindungi komputer Anda dari pencurian malware yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
@@ -338,7 +338,7 @@
         <translation>Mengindex ulang blok di dalam disk...</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Kirim koin ke alamat Nyancoin</translation>
     </message>
     <message>
@@ -390,12 +390,12 @@
         <translation>Enkripsi private key yang dimiliki dompet Anda</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
-        <translation>Tanda tangani sebuah pesan menggunakan alamat Nyancoin Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
+        <translation>Tanda tangani sebuah pesan menggunakan alamat KatKoyn Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
-        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Nyancoin tertentu</translation>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
+        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat KatKoyn tertentu</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Baris tab</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
-        <translation>Permintaan pembayaran (membuat kode QR dan nyancoin: URIs)</translation>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
+        <translation>Permintaan pembayaran (membuat kode QR dan katkoyn: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,15 +426,15 @@
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
-        <translation>Buka URI nyancoin: atau permintaan pembayaran</translation>
+        <source>Open a katkoyn: URI or payment request</source>
+        <translation>Buka URI katkoyn: atau permintaan pembayaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;pilihan Command-line</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Nyancoin network</source>
+        <source>%n active connection(s) to KatKoyn network</source>
         <translation><numerusform>%n koneksi aktif ke jaringan Nyancoin</numerusform></translation>
     </message>
     <message>
@@ -478,8 +478,8 @@
         <translation>Terbaru</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Nyancoin command-line options</source>
-        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Nyancoin yang memungkinkan</translation>
+        <source>Show the %1 help message to get a list with possible KatKoyn command-line options</source>
+        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah KatKoyn yang memungkinkan</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -548,8 +548,8 @@
         <translation>Dompet saat ini &lt;b&gt;terenkripsi&lt;/b&gt; dan &lt;b&gt;terkunci&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Nyancoin can no longer continue safely and will quit.</source>
-        <translation>Terjadi Kesalahan Fatal. Nyancoin Tidak Dapat Melanjutkan Dengan Aman Dan Akan Keluar</translation>
+        <source>A fatal error occurred. KatKoyn can no longer continue safely and will quit.</source>
+        <translation>Terjadi Kesalahan Fatal. KatKoyn Tidak Dapat Melanjutkan Dengan Aman Dan Akan Keluar</translation>
     </message>
 </context>
 <context>
@@ -730,8 +730,8 @@
         <translation>Ubah alamat pengirim</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Nyancoin address.</source>
-        <translation>Alamat yang dimasukkan "%1" bukanlah alamat Nyancoin yang valid.</translation>
+        <source>The entered address "%1" is not a valid KatKoyn address.</source>
+        <translation>Alamat yang dimasukkan "%1" bukanlah alamat KatKoyn yang valid.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -972,16 +972,16 @@
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Nyancoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Nyancoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the KatKoyn client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client KatKoyn di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Petakan port dengan &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Nyancoin network through a SOCKS5 proxy.</source>
-        <translation>Hubungkan ke jaringan Nyancoin melalui SOCKS5 proxy.</translation>
+        <source>Connect to the KatKoyn network through a SOCKS5 proxy.</source>
+        <translation>Hubungkan ke jaringan KatKoyn melalui SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1091,8 +1091,8 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nyancoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Nyancoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KatKoyn network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan KatKoyn ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1152,8 +1152,8 @@
         <translation>Nilai</translation>
     </message>
     <message>
-        <source>Enter a Nyancoin address (e.g. %1)</source>
-        <translation>Masukkan alamat Nyancoin (contoh %1)</translation>
+        <source>Enter a KatKoyn address (e.g. %1)</source>
+        <translation>Masukkan alamat KatKoyn (contoh %1)</translation>
     </message>
     <message>
         <source>%1 h</source>
@@ -1667,8 +1667,8 @@
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nyancoin address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Nyancoin ini</translation>
+        <source>Sign the message to prove you own this KatKoyn address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat KatKoyn ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

@@ -104,7 +104,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy katkoynd.init to /etc/init.d/katkoynd. Test by running `service katkoynd start`.
 
 Using this script, you can adjust the path and flags to the katkoynd program by
-setting the NYANCOIND and FLAGS environment variables in the file
+setting the KATKOYND and FLAGS environment variables in the file
 /etc/sysconfig/katkoynd. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X

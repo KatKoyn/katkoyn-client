@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Scegli l'indirizzo a cui inviare nyancoin</translation>
+        <translation>Scegli l'indirizzo a cui inviare katkoyn</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Scegli l'indirizzo con cui ricevere nyancoin</translation>
+        <translation>Scegli l'indirizzo con cui ricevere katkoyn</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono i tuoi indirizzi Nyancoin per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare nyancoin.</translation>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono i tuoi indirizzi KatKoyn per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare katkoyn.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono i tuoi indirizzi Nyancoin per la ricezione di pagamenti. Si raccomanda di usare un nuovo indirizzo di ricezione per ogni transazione.</translation>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono i tuoi indirizzi KatKoyn per la ricezione di pagamenti. Si raccomanda di usare un nuovo indirizzo di ricezione per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,7 +172,7 @@
         <translation>Conferma la cifratura del portafoglio</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
         <translation>Attenzione: perdendo la passphrase di un portamonete cifrato &lt;b&gt;TUTTI I PROPRI NYANCOIN ANDRANNO PERSI&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Portafoglio cifrato</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nyancoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your katkoyn from being stolen by malware infecting your computer.</source>
         <translation>%1 verrà chiuso per completare il processo di cifratura. Ricorda che cifrare il tuo portafoglio non può proteggerlo contro potenziali furti di malware che potrebbero aver infettato il tuo computer.</translation>
     </message>
     <message>
@@ -342,7 +342,7 @@
         <translation>Re-indicizzazione blocchi su disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Invia fondi ad un indirizzo Nyancoin</translation>
     </message>
     <message>
@@ -394,12 +394,12 @@
         <translation>Cifra le chiavi private che appartengono al tuo portamonete</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
-        <translation>Firma messaggi con i tuoi indirizzi Nyancoin per dimostrarne il possesso</translation>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
+        <translation>Firma messaggi con i tuoi indirizzi KatKoyn per dimostrarne il possesso</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
-        <translation>Verifica che i messaggi siano stati firmati con gli indirizzi Nyancoin specificati</translation>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
+        <translation>Verifica che i messaggi siano stati firmati con gli indirizzi KatKoyn specificati</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -418,8 +418,8 @@
         <translation>Barra degli strumenti</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e nyancoin: URI)</translation>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e katkoyn: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,16 +430,16 @@
         <translation>Mostra la lista degli indirizzi di ricezione utilizzati</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
-        <translation>Apri un nyancoin: URI o una richiesta di pagamento</translation>
+        <source>Open a katkoyn: URI or payment request</source>
+        <translation>Apri un katkoyn: URI o una richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opzioni della riga di &amp;comando</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Nyancoin network</source>
-        <translation><numerusform>%n connessione attiva alla rete Nyancoin</numerusform><numerusform>%n connessioni alla rete Nyancoin attive</numerusform></translation>
+        <source>%n active connection(s) to KatKoyn network</source>
+        <translation><numerusform>%n connessione attiva alla rete Nyancoin</numerusform><numerusform>%n connessioni alla rete KatKoyn attive</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -482,8 +482,8 @@
         <translation>Aggiornato</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Nyancoin command-line options</source>
-        <translation>Mostra il messaggio di aiuto di %1 per ottenere una lista di opzioni di comando per Nyancoin </translation>
+        <source>Show the %1 help message to get a list with possible KatKoyn command-line options</source>
+        <translation>Mostra il messaggio di aiuto di %1 per ottenere una lista di opzioni di comando per KatKoyn </translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -552,8 +552,8 @@
         <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Nyancoin can no longer continue safely and will quit.</source>
-        <translation>Si è verificato un errore critico. Nyancoin non può più funzionare in maniera sicura e verrà chiuso.</translation>
+        <source>A fatal error occurred. KatKoyn can no longer continue safely and will quit.</source>
+        <translation>Si è verificato un errore critico. KatKoyn non può più funzionare in maniera sicura e verrà chiuso.</translation>
     </message>
 </context>
 <context>
@@ -746,8 +746,8 @@
         <translation>Modifica indirizzo d'invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Nyancoin address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo nyancoin valido.</translation>
+        <source>The entered address "%1" is not a valid KatKoyn address.</source>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo katkoyn valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -887,7 +887,7 @@
         <translation>Verranno salvati circa %1 GB di dati in questa cartella.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Nyancoin block chain.</source>
+        <source>%1 will download and store a copy of the KatKoyn block chain.</source>
         <translation>%1 scaricherà e salverà una copia della block chain di Nyancoin.</translation>
     </message>
     <message>
@@ -918,12 +918,12 @@
         <translation>Modulo</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the nyancoin network, as detailed below.</source>
-        <translation>Transazioni recenti potrebbero non essere visibili ancora, perciò il saldo del tuo portafoglio potrebbe non essere corretto. Questa informazione risulterà corretta quando il tuo portafoglio avrà terminato la sincronizzazione con la rete nyancoin, come indicato in dettaglio più sotto.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the katkoyn network, as detailed below.</source>
+        <translation>Transazioni recenti potrebbero non essere visibili ancora, perciò il saldo del tuo portafoglio potrebbe non essere corretto. Questa informazione risulterà corretta quando il tuo portafoglio avrà terminato la sincronizzazione con la rete katkoyn, come indicato in dettaglio più sotto.</translation>
     </message>
     <message>
-        <source>Attempting to spend nyancoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Il tentativo di spendere nyancoin legati a transazioni non ancora visualizzate non verrà accettato dalla rete.</translation>
+        <source>Attempting to spend katkoyn that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Il tentativo di spendere katkoyn legati a transazioni non ancora visualizzate non verrà accettato dalla rete.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1093,8 +1093,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Spendi resti non confermati</translation>
     </message>
     <message>
-        <source>Automatically open the Nyancoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta del client Nyancoin sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
+        <source>Automatically open the KatKoyn client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Apri automaticamente la porta del client KatKoyn sul router. Il protocollo UPnP deve essere supportato da parte del router ed attivo.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1109,8 +1109,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Accetta connessioni in entrata</translation>
     </message>
     <message>
-        <source>Connect to the Nyancoin network through a SOCKS5 proxy.</source>
-        <translation>Connessione alla rete Nyancoin attraverso un proxy SOCKS5.</translation>
+        <source>Connect to the KatKoyn network through a SOCKS5 proxy.</source>
+        <translation>Connessione alla rete KatKoyn attraverso un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1145,8 +1145,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Nyancoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connette alla rete Nyancoin attraverso un proxy SOCKS5 separato per Tor.</translation>
+        <source>Connect to the KatKoyn network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Connette alla rete KatKoyn attraverso un proxy SOCKS5 separato per Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1182,7 +1182,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Scegli l'unità di suddivisione predefinita da utilizzare per l'interfaccia e per l'invio di nyancoin.</translation>
+        <translation>Scegli l'unità di suddivisione predefinita da utilizzare per l'interfaccia e per l'invio di katkoyn.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1252,8 +1252,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Modulo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nyancoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portamonete si sincronizza automaticamente con la rete Nyancoin una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KatKoyn network after a connection is established, but this process has not completed yet.</source>
+        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portamonete si sincronizza automaticamente con la rete KatKoyn una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1327,8 +1327,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Errore di richiesta di pagamento</translation>
     </message>
     <message>
-        <source>Cannot start nyancoin: click-to-pay handler</source>
-        <translation>Impossibile avviare nyancoin: gestore click-to-pay</translation>
+        <source>Cannot start katkoyn: click-to-pay handler</source>
+        <translation>Impossibile avviare katkoyn: gestore click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1343,8 +1343,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Indirizzo di pagamento non valido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Nyancoin address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l'URI! I parametri dell'URI o l'indirizzo Nyancoin potrebbero non essere corretti.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid KatKoyn address or malformed URI parameters.</source>
+        <translation>Impossibile interpretare l'URI! I parametri dell'URI o l'indirizzo KatKoyn potrebbero non essere corretti.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1445,8 +1445,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Importo</translation>
     </message>
     <message>
-        <source>Enter a Nyancoin address (e.g. %1)</source>
-        <translation>Inserisci un indirizzo Nyancoin (ad es. %1)</translation>
+        <source>Enter a KatKoyn address (e.g. %1)</source>
+        <translation>Inserisci un indirizzo KatKoyn (ad es. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1869,7 +1869,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Messaggio:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nyancoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the KatKoyn network.</source>
         <translation>Un messaggio opzionale da allegare e mostrare all'apertura della richiesta di pagamento. Nota: Il messaggio non sarà inviato con il pagamento sulla rete Nyancoin.</translation>
     </message>
     <message>
@@ -2106,7 +2106,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Nascondi</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for nyancoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for katkoyn transactions than the network can process.</source>
         <translation>Non vi è alcuna controindicazione a pagare la commissione minima, a patto che il volume delle transazioni sia inferiore allo spazio disponibile nei blocchi. Occorre comunque essere consapevoli che ciò potrebbe impedire la conferma delle transazioni nel caso in cui la rete risultasse satura.</translation>
     </message>
     <message>
@@ -2278,8 +2278,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation><numerusform>Inizio delle conferme stimato entro %n blocchi.</numerusform><numerusform>Inizio delle conferme stimato entro %n blocchi.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Nyancoin address</source>
-        <translation>Attenzione: Indirizzo Nyancoin non valido</translation>
+        <source>Warning: Invalid KatKoyn address</source>
+        <translation>Attenzione: Indirizzo KatKoyn non valido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2321,8 +2321,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Questo è un normale pagamento.</translation>
     </message>
     <message>
-        <source>The Nyancoin address to send the payment to</source>
-        <translation>L'indirizzo Nyancoin a cui vuoi inviare il pagamento</translation>
+        <source>The KatKoyn address to send the payment to</source>
+        <translation>L'indirizzo KatKoyn a cui vuoi inviare il pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2341,8 +2341,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Rimuovi questa voce</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less nyancoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>La commissione sarà sottratta dall'importo che si sta inviando. Il beneficiario riceverà un totale di nyancoin inferiore al valore digitato. Nel caso in cui siano stati selezionati più beneficiari la commissione sarà suddivisa in parti uguali.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less katkoyn than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>La commissione sarà sottratta dall'importo che si sta inviando. Il beneficiario riceverà un totale di katkoyn inferiore al valore digitato. Nel caso in cui siano stati selezionati più beneficiari la commissione sarà suddivisa in parti uguali.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2369,8 +2369,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Inserisci un'etichetta per questo indirizzo per aggiungerlo alla lista degli indirizzi utilizzati</translation>
     </message>
     <message>
-        <source>A message that was attached to the nyancoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nyancoin network.</source>
-        <translation>Messaggio incluso nel nyancoin URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete Nyancoin.</translation>
+        <source>A message that was attached to the katkoyn: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the KatKoyn network.</source>
+        <translation>Messaggio incluso nel katkoyn URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete Nyancoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2414,12 +2414,12 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Firma Messaggio</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive nyancoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>È possibile firmare messaggi/accordi con i propri indirizzi in modo da dimostrare di poter ricevere nyancoin attraverso di essi. Si consiglia di prestare attenzione a non firmare dichiarazioni vaghe o casuali, attacchi di phishing potrebbero cercare di indurre ad apporre la firma su di esse. Si raccomanda di firmare esclusivamente dichiarazioni completamente dettagliate e delle quali si condivide in pieno il contenuto.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive katkoyn sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>È possibile firmare messaggi/accordi con i propri indirizzi in modo da dimostrare di poter ricevere katkoyn attraverso di essi. Si consiglia di prestare attenzione a non firmare dichiarazioni vaghe o casuali, attacchi di phishing potrebbero cercare di indurre ad apporre la firma su di esse. Si raccomanda di firmare esclusivamente dichiarazioni completamente dettagliate e delle quali si condivide in pieno il contenuto.</translation>
     </message>
     <message>
-        <source>The Nyancoin address to sign the message with</source>
-        <translation>L'indirizzo Nyancoin da utilizzare per firmare il messaggio</translation>
+        <source>The KatKoyn address to sign the message with</source>
+        <translation>L'indirizzo KatKoyn da utilizzare per firmare il messaggio</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2450,7 +2450,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Copia la firma corrente nella clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nyancoin address</source>
+        <source>Sign the message to prove you own this KatKoyn address</source>
         <translation>Firma un messaggio per dimostrare di possedere questo indirizzo Nyancoin</translation>
     </message>
     <message>
@@ -2474,11 +2474,11 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Per verificare il messaggio inserire l'indirizzo del firmatario, il messaggio e la firma nei campi sottostanti, assicurandosi di copiare esattamente anche ritorni a capo, spazi, tabulazioni, etc.. Si raccomanda di non lasciarsi fuorviare dalla firma a leggere più di quanto non sia riportato nel testo del messaggio stesso, in modo da evitare di cadere vittima di attacchi di tipo man-in-the-middle. Si ricorda che la verifica della firma dimostra soltanto che il firmatario può ricevere pagamenti con l'indirizzo corrispondente, non prova l'invio di alcuna transazione.</translation>
     </message>
     <message>
-        <source>The Nyancoin address the message was signed with</source>
-        <translation>L'indirizzo Nyancoin con cui è stato contrassegnato il messaggio</translation>
+        <source>The KatKoyn address the message was signed with</source>
+        <translation>L'indirizzo KatKoyn con cui è stato contrassegnato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nyancoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KatKoyn address</source>
         <translation>Verifica il messaggio per accertare che sia stato firmato con l'indirizzo specificato</translation>
     </message>
     <message>
@@ -2503,7 +2503,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>L'indirizzo nyancoin inserito non è associato a nessuna chiave.</translation>
+        <translation>L'indirizzo katkoyn inserito non è associato a nessuna chiave.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -2700,7 +2700,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>I nyancoin generati devono maturare %1 blocchi prima di poter essere spesi. Quando hai generato questo blocco, è stato trasmesso alla rete per essere aggiunto alla block chain. Se l'inserimento nella catena avrà esito negativo, il suo stato cambierà a "non accettato" e non sarà spendibile. Talvolta ciò può accadere anche nel caso in cui un altro nodo generi un blocco entro pochi secondi dal tuo.</translation>
+        <translation>I katkoyn generati devono maturare %1 blocchi prima di poter essere spesi. Quando hai generato questo blocco, è stato trasmesso alla rete per essere aggiunto alla block chain. Se l'inserimento nella catena avrà esito negativo, il suo stato cambierà a "non accettato" e non sarà spendibile. Talvolta ciò può accadere anche nel caso in cui un altro nodo generi un blocco entro pochi secondi dal tuo.</translation>
     </message>
     <message>
         <source>Debug information</source>

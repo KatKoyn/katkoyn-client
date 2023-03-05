@@ -62,12 +62,12 @@
         <translation>Imenik naslovov za prejemanje</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To so vaši Nyancoin naslovi za pošiljanje. Pred pošiljanjem vedno preverite količino in prejemnikov naslov.</translation>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To so vaši KatKoyn naslovi za pošiljanje. Pred pošiljanjem vedno preverite količino in prejemnikov naslov.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To so vaši Nyancoin naslovi za prejemanje. Priporočeno je, da za vsako transakcijo uporabite nov naslov.</translation>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To so vaši KatKoyn naslovi za prejemanje. Priporočeno je, da za vsako transakcijo uporabite nov naslov.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,7 +168,7 @@
         <translation>Potrdi šifriranje denarnice</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
         <translation>Opozorilo: V primeru izgube gesla šifrirane denarnice, boste &lt;b&gt;IZGUBILI VSE SVOJE NYANCOINE&lt;/b&gt;!</translation>
     </message>
     </context>
@@ -262,7 +262,7 @@
         <translation>Poustvarjam kazalo blokov na disku ...</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Izvedite plačilo na naslov Nyancoin</translation>
     </message>
     <message>
@@ -314,11 +314,11 @@
         <translation>Šifrirajte zasebne ključe, ki se nahajajo v denarnici</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
         <translation>Podpišite poljubno sporočilo z enim svojih naslovov Nyancoin, da prejemniku sporočila dokažete, da je ta naslov v vaši lasti.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
         <translation>Preverite, če je bilo prejeto sporočilo podpisano z določenim naslovom Nyancoin</translation>
     </message>
     <message>
@@ -338,8 +338,8 @@
         <translation>Orodna vrstica zavihkov</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
-        <translation>Zahtevajte plačilo (ustvarite zahtevek s kodo QR in URI tipa nyancoin:)</translation>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
+        <translation>Zahtevajte plačilo (ustvarite zahtevek s kodo QR in URI tipa katkoyn:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -350,15 +350,15 @@
         <translation>Preglejte in uredite seznam naslovov, na katere ste kdaj prejeli plačila</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
-        <translation>Izvedite plačilo iz zahtevka v datoteki ali iz URI tipa nyancoin:</translation>
+        <source>Open a katkoyn: URI or payment request</source>
+        <translation>Izvedite plačilo iz zahtevka v datoteki ali iz URI tipa katkoyn:</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcije &amp;ukazne vrstice</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Nyancoin network</source>
+        <source>%n active connection(s) to KatKoyn network</source>
         <translation><numerusform>%n aktivna povezava v omrežje Nyancoin</numerusform><numerusform>%n aktivni povezavi v omrežje Nyancoin</numerusform><numerusform>%n aktivne povezave v omrežje Nyancoin</numerusform><numerusform>%n aktivnih povezav v omrežje Nyancoin</numerusform></translation>
     </message>
     <message>
@@ -764,7 +764,7 @@
         <translation>Omogoči &amp;trošenje drobiža iz še nepotrjenih plačil</translation>
     </message>
     <message>
-        <source>Automatically open the Nyancoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the KatKoyn client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Program samodejno odpre ustrezna vrata na usmerjevalniku. To deluje samo, če vaš usmerjevalnik podpira in ima omogočen UPnP.</translation>
     </message>
     <message>
@@ -772,8 +772,8 @@
         <translation>Preslikaj vrata z uporabo &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Nyancoin network through a SOCKS5 proxy.</source>
-        <translation>Poveži se v omrežje Nyancoin preko posredniškega strežnika SOCKS5.</translation>
+        <source>Connect to the KatKoyn network through a SOCKS5 proxy.</source>
+        <translation>Poveži se v omrežje KatKoyn preko posredniškega strežnika SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -875,7 +875,7 @@
         <translation>Oblika</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nyancoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KatKoyn network after a connection is established, but this process has not completed yet.</source>
         <translation>Prikazani podatki so morda zastareli. Program ob vzpostavitvi povezave samodejno sinhronizira denarnico z omrežjem Nyancoin, a trenutno ta proces še ni zaključen.</translation>
     </message>
     <message>
@@ -972,8 +972,8 @@
         <translation>Znesek</translation>
     </message>
     <message>
-        <source>Enter a Nyancoin address (e.g. %1)</source>
-        <translation>Vnesite naslov Nyancoin (npr. %1):</translation>
+        <source>Enter a KatKoyn address (e.g. %1)</source>
+        <translation>Vnesite naslov KatKoyn (npr. %1):</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1220,8 +1220,8 @@
         <translation>&amp;Sporočilo:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Nyancoin network.</source>
-        <translation>Neobvezno sporočilo kot priponka zahtevku za plačilo, ki bo prikazano, ko bo zahtevek odprt. Opomba: Opravljeno plačilo.prek omrežja Nyancoin tega sporočila ne bo vsebovalo.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the KatKoyn network.</source>
+        <translation>Neobvezno sporočilo kot priponka zahtevku za plačilo, ki bo prikazano, ko bo zahtevek odprt. Opomba: Opravljeno plačilo.prek omrežja KatKoyn tega sporočila ne bo vsebovalo.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1385,7 +1385,7 @@
         <translation>Skrij</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for nyancoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for katkoyn transactions than the network can process.</source>
         <translation>Dokler bo v blokih še dovolj prostora za vse nastajajoče transakcije, zadostuje, če plačate samo minimalno provizijo. Ko pa se bo količina vseh transakcij povečala do meja zmogljivosti omrežja, se lahko zgodi, da vaša transakcija brez večje provizije nikoli ne bo potrjena.</translation>
     </message>
     <message>
@@ -1464,7 +1464,7 @@
         <translation>Plačilo je navadne vrste.</translation>
     </message>
     <message>
-        <source>The Nyancoin address to send the payment to</source>
+        <source>The KatKoyn address to send the payment to</source>
         <translation>Naslov Nyancoin, na katerega bo plačilo poslano</translation>
     </message>
     <message>
@@ -1484,7 +1484,7 @@
         <translation>Izpraznite vsebino polja</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less nyancoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less katkoyn than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Znesek plačila bo zmanjšan za znesek provizije. Prejemnik bo prejel manjše število kovancev, kot je bil vnešeni znesek. Če je prejemnikov več, bo provizija med njih enakomerno porazdeljena.</translation>
     </message>
     <message>
@@ -1508,8 +1508,8 @@
         <translation>Če vnesete oznako za zgornji naslov, se bo skupaj z naslovom shranila v imenk že uporabljenih naslovov</translation>
     </message>
     <message>
-        <source>A message that was attached to the nyancoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Nyancoin network.</source>
-        <translation>Sporočilo, ki ste ga pripeli na URI tipa nyancoin:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Nyancoin.</translation>
+        <source>A message that was attached to the katkoyn: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the KatKoyn network.</source>
+        <translation>Sporočilo, ki ste ga pripeli na URI tipa katkoyn:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Nyancoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1541,11 +1541,11 @@
         <translation>&amp;Podpiši sporočilo</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive nyancoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive katkoyn sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>S svojimi naslovi lahko podpisujete sporočila ali pogodbe in s tem dokazujete, da na teh naslovih lahko prejemate kovance. Bodite previdni in ne podpisujte ničesar nejasnega ali naključnega, ker vas zlikovci preko ribarjenja (phishing) lahko prelisičijo, da na njih prepišete svojo identiteto. Podpisujte samo podrobno opisane izjave, s katerimi se strinjate.</translation>
     </message>
     <message>
-        <source>The Nyancoin address to sign the message with</source>
+        <source>The KatKoyn address to sign the message with</source>
         <translation>Naslov Nyancoin, s katerim podpisujete sporočilo</translation>
     </message>
     <message>
@@ -1577,7 +1577,7 @@
         <translation>Kopiranje trenutnega podpisa na sistemsko odložišče.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nyancoin address</source>
+        <source>Sign the message to prove you own this KatKoyn address</source>
         <translation>Podpišite sporočilo, da dokažete lastništvo nad zgornjim naslovom.</translation>
     </message>
     <message>
@@ -1601,11 +1601,11 @@
         <translation>Da preverite verodostojnost sporočila, spodaj vnesite: prejemnikov naslov, prejeto sporočilo (pazljivo skopirajte vse prelome vrstic, presledke, tabulatorje ipd.,) in prejeti podpis. Da se izognete napadom tipa man-in-the-middle, vedite, da iz veljavnega podpisa ne sledi nič drugega, kot tisto, kar je navedeno v sporočilu. Podpis samo potrjuje dejstvo, da ima podpisnik v lasti prejemni naslov, ne more pa dokazati vira nobene transakcije!</translation>
     </message>
     <message>
-        <source>The Nyancoin address the message was signed with</source>
+        <source>The KatKoyn address the message was signed with</source>
         <translation>Naslov Nyancoin, s katerim je bilo sporočilo podpisano</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nyancoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KatKoyn address</source>
         <translation>Preverite, ali je bilo sporočilo v resnici podpisano z navedenim naslovom Nyancoin.</translation>
     </message>
     <message>

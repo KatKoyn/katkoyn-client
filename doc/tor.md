@@ -1,4 +1,4 @@
-TOR SUPPORT IN NYANCOIN
+TOR SUPPORT IN KATKOYN
 =======================
 
 It is possible to run KatKoyn as a Tor hidden service, and connect to such services.

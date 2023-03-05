@@ -90,8 +90,8 @@
 <context>
     <name>NyancoinGUI</name>
     <message>
-        <source>Send coins to a Nyancoin address</source>
-        <translation>ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Nyancoin មួយ</translation>
+        <source>Send coins to a KatKoyn address</source>
+        <translation>ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន KatKoyn មួយ</translation>
     </message>
     <message>
         <source>Wallet</source>

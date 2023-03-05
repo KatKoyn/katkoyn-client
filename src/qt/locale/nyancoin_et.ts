@@ -62,12 +62,12 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Nyancoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu KatKoyn aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Need on sinu Nyancoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Need on sinu KatKoyn aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,7 +168,7 @@
         <translation>Kinnita rahakoti krüpteerimine.</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
         <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA NYANCOINID&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -290,7 +290,7 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Saada münte Nyancoini aadressile</translation>
     </message>
     <message>
@@ -342,11 +342,11 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
         <translation>Omandi tõestamiseks allkirjasta sõnumid oma Nyancoini aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
         <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Nyancoini aadressiga</translation>
     </message>
     <message>
@@ -366,19 +366,19 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja nyancoini: URId)</translation>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
+        <translation>Loo maksepäring (genereerib QR koodid ja katkoyni: URId)</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
-        <translation>Ava nyancoini: URI või maksepäring</translation>
+        <source>Open a katkoyn: URI or payment request</source>
+        <translation>Ava katkoyni: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Nyancoin network</source>
+        <source>%n active connection(s) to KatKoyn network</source>
         <translation><numerusform>%n aktiivne ühendus Nyancoini võrku</numerusform><numerusform>%n aktiivset ühendust Nyancoini võrku</numerusform></translation>
     </message>
     <message>
@@ -626,8 +626,8 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Nyancoin address.</source>
-        <translation>Sisestatud aadress "%1" ei ole korrektne Nyancoin aadress.</translation>
+        <source>The entered address "%1" is not a valid KatKoyn address.</source>
+        <translation>Sisestatud aadress "%1" ei ole korrektne KatKoyn aadress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -760,7 +760,7 @@
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Nyancoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the KatKoyn client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Nyancoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
@@ -859,7 +859,7 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nyancoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KatKoyn network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Liteconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1361,8 +1361,8 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Nyancoin address</source>
-        <translation>Hoiatus: Ebakorrektne Nyancoin aadress</translation>
+        <source>Warning: Invalid KatKoyn address</source>
+        <translation>Hoiatus: Ebakorrektne KatKoyn aadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1445,7 +1445,7 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
-        <source>The Nyancoin address to sign the message with</source>
+        <source>The KatKoyn address to sign the message with</source>
         <translation>Nyancoin aadress millega sõnum allkirjastada</translation>
     </message>
     <message>
@@ -1477,7 +1477,7 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nyancoin address</source>
+        <source>Sign the message to prove you own this KatKoyn address</source>
         <translation>Allkirjasta sõnum Nyancoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
@@ -1497,11 +1497,11 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
-        <source>The Nyancoin address the message was signed with</source>
+        <source>The KatKoyn address the message was signed with</source>
         <translation>Nyancoin aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nyancoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KatKoyn address</source>
         <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Nyancoini aadressiga.</translation>
     </message>
     <message>

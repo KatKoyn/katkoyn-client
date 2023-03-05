@@ -1,17 +1,17 @@
 #!/bin/bash
 #
-#  nyancoind The nyancoin core server.
+#  nyncoind The nyncoin core server.
 #
 #
 # chkconfig: 345 80 20
-# description: nyancoind
-# processname: nyancoind
+# description: nyncoind
+# processname: nyncoind
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/nyancoind, see below
+# you can override defaults in /etc/sysconfig/nyncoind, see below
 if [ -f /etc/sysconfig/nyancoind ]; then
         . /etc/sysconfig/nyancoind
 fi
@@ -19,13 +19,13 @@ fi
 RETVAL=0
 
 prog=nyancoind
-# you can override the lockfile via NYANCOIND_LOCKFILE in /etc/sysconfig/nyancoind
+# you can override the lockfile via NYNCOIND_LOCKFILE in /etc/sysconfig/nyncoind
 lockfile=${NYANCOIND_LOCKFILE-/var/lock/subsys/nyancoind}
 
-# nyancoind defaults to /usr/bin/nyancoind, override with NYANCOIND_BIN
+# nyancoind defaults to /usr/bin/nyncoind, override with NYNCOIND_BIN
 nyancoind=${NYANCOIND_BIN-/usr/bin/nyancoind}
 
-# nyancoind opts default to -disablewallet, override with NYANCOIND_OPTS
+# nyancoind opts default to -disablewallet, override with NYNCOIND_OPTS
 nyancoind_opts=${NYANCOIND_OPTS--disablewallet}
 
 start() {

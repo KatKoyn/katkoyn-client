@@ -62,11 +62,11 @@
         <translation>آدرس‌های گیرنده</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>اینها آدرس‌های شما برای ارسال وجوه هستند. همیشه قبل از ارسال، مقدار و آدرس گیرنده را بررسی کنید.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>اینها آدرس‌های بیتکوین شما برای دریافت وجوه هستند. توصیه می‌شود برای هر دریافت از یک آدرس جدید استفاده کنید.</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>تایید رمزگذاری کیف پول</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
         <translation>اخطار: اگر کیف‌پول خود را رمزگذاری کرده و رمز خود را فراموش کنید، شما &lt;b&gt;تمام Nyancoin‌های خود را از دست خواهید داد&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -180,7 +180,7 @@
         <translation>کیف پول رمزگذاری شده است</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your nyancoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your katkoyn from being stolen by malware infecting your computer.</source>
         <translation>%1 برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
     </message>
     <message>
@@ -326,8 +326,8 @@
         <translation>فهرست‌بندی نمایه بلاک‌ها…</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
-        <translation>ارسال کوین به آدرس nyancoin</translation>
+        <source>Send coins to a KatKoyn address</source>
+        <translation>ارسال کوین به آدرس katkoyn</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -346,8 +346,8 @@
         <translation>تایید پیام</translation>
     </message>
     <message>
-        <source>Nyancoin</source>
-        <translation>nyancoin</translation>
+        <source>KatKoyn</source>
+        <translation>katkoyn</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -370,12 +370,12 @@
         <translation>رمزنگاری کلیدهای شخصی متعلق به کیف‌پول</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
-        <translation>پیام‌ها را با آدرس Nyancoin خود امضا کنید تا مالکیت آن‌ها را اثبات کنید</translation>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
+        <translation>پیام‌ها را با آدرس KatKoyn خود امضا کنید تا مالکیت آن‌ها را اثبات کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
-        <translation>پیام‌ها را تائید کنید تا از امضاشدن آن‌ها با آدرس Nyancoin مطمئن شوید</translation>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
+        <translation>پیام‌ها را تائید کنید تا از امضاشدن آن‌ها با آدرس KatKoyn مطمئن شوید</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -394,7 +394,7 @@
         <translation>نوار ابزار</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
         <translation>درخواست پرداخت (ساخت کد QR و Nyancoin: URIs)</translation>
     </message>
     <message>
@@ -406,11 +406,11 @@
         <translation>نمایش لیست آدرس‌ها و لیبل‌های دریافتی استفاده شده</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
+        <source>Open a katkoyn: URI or payment request</source>
         <translation>بازکردن Nyancoin: آدرس یا درخواست پرداخت</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Nyancoin network</source>
+        <source>%n active connection(s) to KatKoyn network</source>
         <translation><numerusform>%n ارتباط فعال به شبکه Nyancoin</numerusform><numerusform>%n ارتباط فعال به شبکه Nyancoin</numerusform></translation>
     </message>
     <message>
@@ -597,8 +597,8 @@
         <translation>خوش آمدید</translation>
     </message>
     <message>
-        <source>Nyancoin</source>
-        <translation>nyancoin</translation>
+        <source>KatKoyn</source>
+        <translation>katkoyn</translation>
     </message>
     <message>
         <source>Error</source>
@@ -685,8 +685,8 @@
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nyancoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه nyancoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KatKoyn network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه katkoyn به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     <message>
         <source>Available:</source>

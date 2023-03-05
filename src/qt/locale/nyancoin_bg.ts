@@ -62,12 +62,12 @@
         <translation>Получаване на адреси</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your KatKoyn addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Това са адресите на получателите на плащания. Винаги проверявайте размера на сумата и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your Nyancoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са Вашите Nyancoin адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване на всяка транзакция.</translation>
+        <source>These are your KatKoyn addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са Вашите KatKoyn адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване на всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,7 +168,7 @@
         <translation>Потвърдете на шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NYANCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KATKOYN&lt;/b&gt;!</source>
         <translation>ВНИМАНИЕ: Ако шифрирате вашият портфейл и изгубите паролата си, &lt;b&gt;ЩЕ ИЗГУБИТЕ ВСИЧКИТЕ СИ БИТКОИНИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -330,7 +330,7 @@
         <translation>Повторно индексиране на блоковете на диска...</translation>
     </message>
     <message>
-        <source>Send coins to a Nyancoin address</source>
+        <source>Send coins to a KatKoyn address</source>
         <translation>Изпращане към Биткоин адрес</translation>
     </message>
     <message>
@@ -382,12 +382,12 @@
         <translation>Шифроване на личните ключове,които принадлежат на портфейла Ви.</translation>
     </message>
     <message>
-        <source>Sign messages with your Nyancoin addresses to prove you own them</source>
-        <translation>Пишете съобщения със своя Nyancoin адрес за да докажете,че е ваш.</translation>
+        <source>Sign messages with your KatKoyn addresses to prove you own them</source>
+        <translation>Пишете съобщения със своя KatKoyn адрес за да докажете,че е ваш.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Nyancoin addresses</source>
-        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Nyancoin адреси.</translation>
+        <source>Verify messages to ensure they were signed with specified KatKoyn addresses</source>
+        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените KatKoyn адреси.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -406,7 +406,7 @@
         <translation>Раздели</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and nyancoin: URIs)</source>
+        <source>Request payments (generates QR codes and katkoyn: URIs)</source>
         <translation>Изискване на плащания(генерира QR кодове и Nyancoin: URIs)</translation>
     </message>
     <message>
@@ -418,7 +418,7 @@
         <translation>Покажи списък с използваните адреси и имена.</translation>
     </message>
     <message>
-        <source>Open a nyancoin: URI or payment request</source>
+        <source>Open a katkoyn: URI or payment request</source>
         <translation>Отворете Nyancoin: URI  или заявка за плащане</translation>
     </message>
     <message>
@@ -462,8 +462,8 @@
         <translation>Синхронизиран</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Nyancoin command-line options</source>
-        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни Nyancoin команди</translation>
+        <source>Show the %1 help message to get a list with possible KatKoyn command-line options</source>
+        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни KatKoyn команди</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -524,8 +524,8 @@
         <translation>Портфейлът е &lt;b&gt;криптиран&lt;/b&gt; и &lt;b&gt;заключен&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Nyancoin can no longer continue safely and will quit.</source>
-        <translation>Възникна фатална грешка. Nyancoin не може да продължи безопасно и ще се изключи.</translation>
+        <source>A fatal error occurred. KatKoyn can no longer continue safely and will quit.</source>
+        <translation>Възникна фатална грешка. KatKoyn не може да продължи безопасно и ще се изключи.</translation>
     </message>
 </context>
 <context>
@@ -710,7 +710,7 @@
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Nyancoin address.</source>
+        <source>The entered address "%1" is not a valid KatKoyn address.</source>
         <translation>"%1" не е валиден Биткоин адрес.</translation>
     </message>
     <message>
@@ -932,16 +932,16 @@
         <translation>&amp;Похарчете непотвърденото ресто</translation>
     </message>
     <message>
-        <source>Automatically open the Nyancoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваряне на входящия Nyancoin порт. Работи само с рутери поддържащи UPnP.</translation>
+        <source>Automatically open the KatKoyn client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия KatKoyn порт. Работи само с рутери поддържащи UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Nyancoin network through a SOCKS5 proxy.</source>
-        <translation>Свързване с Nyancoin мрежата чрез SOCKS5  прокси.</translation>
+        <source>Connect to the KatKoyn network through a SOCKS5 proxy.</source>
+        <translation>Свързване с KatKoyn мрежата чрез SOCKS5  прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1039,7 +1039,7 @@
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nyancoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KatKoyn network after a connection is established, but this process has not completed yet.</source>
         <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
@@ -1094,7 +1094,7 @@
         <translation>Възникна грешка по време назаявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start nyancoin: click-to-pay handler</source>
+        <source>Cannot start katkoyn: click-to-pay handler</source>
         <translation>Nyancoin не можe да се стартира: click-to-pay handler</translation>
     </message>
     <message>
@@ -1176,8 +1176,8 @@
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Nyancoin address (e.g. %1)</source>
-        <translation>Въведете Nyancoin адрес (например: %1)</translation>
+        <source>Enter a KatKoyn address (e.g. %1)</source>
+        <translation>Въведете KatKoyn адрес (например: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1713,8 +1713,8 @@
         <translation>Заявката за плащане е изтекла.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Nyancoin address</source>
-        <translation>Внимание: Невалиден Nyancoin адрес</translation>
+        <source>Warning: Invalid KatKoyn address</source>
+        <translation>Внимание: Невалиден KatKoyn адрес</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1833,7 +1833,7 @@
         <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Nyancoin address</source>
+        <source>Sign the message to prove you own this KatKoyn address</source>
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
@@ -1849,7 +1849,7 @@
         <translation>&amp;Провери</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Nyancoin address</source>
+        <source>Verify the message to ensure it was signed with the specified KatKoyn address</source>
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
     </message>
     <message>

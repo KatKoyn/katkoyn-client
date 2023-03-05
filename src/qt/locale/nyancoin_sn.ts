@@ -194,8 +194,8 @@
         <translation>Marii </translation>
     </message>
     <message>
-        <source>Enter a Nyancoin address (e.g. %1)</source>
-        <translation>Nyora kero ye Nyancoin (sekuti %1)</translation>
+        <source>Enter a KatKoyn address (e.g. %1)</source>
+        <translation>Nyora kero ye KatKoyn (sekuti %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
