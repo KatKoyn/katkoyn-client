@@ -308,7 +308,7 @@ class CTransaction
 {
 public:
     // Default transaction version.
-    // KatKoyn: Temporarily restricted to v1 for compatibility with 1.10
+    // Nyancoin: Temporarily restricted to v1 for compatibility with 1.10
     static const int32_t CURRENT_VERSION=1;
 
     // Changing the default transaction version requires a two step process: first

@@ -99,7 +99,7 @@ UniValue getnetworkhashps(const JSONRPCRequest& request)
 
 UniValue generateBlocks(boost::shared_ptr<CReserveScript> coinbaseScript, int nGenerate, uint64_t nMaxTries, bool keepScript)
 {
-    // KatKoyn: Never mine witness tx
+    // Nyancoin: Never mine witness tx
     const bool fMineWitnessTx = false;
     static const int nInnerLoopCount = 0x10000;
     int nHeightStart = 0;
@@ -124,7 +124,7 @@ UniValue generateBlocks(boost::shared_ptr<CReserveScript> coinbaseScript, int nG
             LOCK(cs_main);
             IncrementExtraNonce(pblock, chainActive.Tip(), nExtraNonce);
         }
-        // KatKoyn: Don't mine Aux blocks in regtest
+        // Nyancoin: Don't mine Aux blocks in regtest
         //CAuxPow::initAuxPow(*pblock);
         //CPureBlockHeader& miningHeader = pblock->auxpow->parentBlock;
         while (nMaxTries > 0 && pblock->nNonce < nInnerLoopCount && !CheckProofOfWork(pblock->GetPoWHash(), pblock->nBits, Params().GetConsensus(nHeight))) {
@@ -196,7 +196,7 @@ UniValue generatetoaddress(const JSONRPCRequest& request)
             "\nMine blocks immediately to a specified address (before the RPC call returns)\n"
             "\nArguments:\n"
             "1. nblocks      (numeric, required) How many blocks are generated immediately.\n"
-            "2. address      (string, required) The address to send the newly generated KatKoyn to.\n"
+            "2. address      (string, required) The address to send the newly generated nyancoin to.\n"
             "3. maxtries     (numeric, optional) How many iterations to try (default = 1000000).\n"
             "\nResult:\n"
             "[ blockhashes ]     (array) hashes of blocks generated\n"
@@ -323,7 +323,7 @@ std::string gbt_vb_name(const Consensus::DeploymentPos pos) {
 
 UniValue getblocktemplate(const JSONRPCRequest& request)
 {
-    // KatKoyn: Never mine witness tx
+    // Nyancoin: Never mine witness tx
     const bool fMineWitnessTx = false;
     if (request.fHelp || request.params.size() > 1)
         throw runtime_error(
@@ -474,10 +474,10 @@ UniValue getblocktemplate(const JSONRPCRequest& request)
         throw JSONRPCError(RPC_CLIENT_P2P_DISABLED, "Error: Peer-to-peer functionality missing or disabled");
 
     if (g_connman->GetNodeCount(CConnman::CONNECTIONS_ALL) == 0)
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "KatKoyn is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Nyancoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "KatKoyn is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Nyancoin is downloading blocks...");
 
     static unsigned int nTransactionsUpdatedLast;
 
@@ -984,11 +984,11 @@ UniValue getauxblockbip22(const JSONRPCRequest& request)
         throw JSONRPCError(RPC_CLIENT_P2P_DISABLED, "Error: Peer-to-peer functionality missing or disabled");
 
     if (g_connman->GetNodeCount(CConnman::CONNECTIONS_ALL) == 0 && !Params().MineBlocksOnDemand())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "KatKoyn is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Nyancoin is not connected!");
 
     if (IsInitialBlockDownload() && !Params().MineBlocksOnDemand())
         throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD,
-                           "KatKoyn is downloading blocks...");
+                           "Nyancoin is downloading blocks...");
 
     /* This should never fail, since the chain is already
        past the point of merge-mining start.  Check nevertheless.  */
@@ -1016,7 +1016,7 @@ UniValue getauxblockbip22(const JSONRPCRequest& request)
         static unsigned nExtraNonce = 0;
 
         // Update block
-        // KatKoyn: Never mine witness tx
+        // Nyancoin: Never mine witness tx
         const bool fMineWitnessTx = false;
         {
         LOCK(cs_main);

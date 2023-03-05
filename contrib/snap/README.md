@@ -18,7 +18,7 @@ snap install \*.snap --devmode
 ### To Push to Snapcraft
 ```
 snapcraft login
-snapcraft register katkoyn-core
+snapcraft register nyancoin-core
 snapcraft push \*.snap --release=edge
-sudo snap install katkoyn-core --channel=edge
+sudo snap install nyancoin-core --channel=edge
 ```

@@ -689,7 +689,7 @@ BOOST_AUTO_TEST_CASE(test_IsStandard)
     std::string reason;
     BOOST_CHECK(IsStandardTx(t, reason));
 
-    // KatKoyn: Dust is totally different in KatKoyn, disable these tests
+    // Nyancoin: Dust is totally different in Nyancoin, disable these tests
     // Check dust with default relay fee:
     /* CAmount nDustThreshold = 182 * dustRelayFee.GetFeePerK()/1000 * 3;
     BOOST_CHECK_EQUAL(nDustThreshold, 546);

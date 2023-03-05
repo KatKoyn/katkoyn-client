@@ -1,7 +1,7 @@
 Translation Strings Policy
 ===========================
 
-This document provides guidelines for internationalization of the KatKoyn Core software.
+This document provides guidelines for internationalization of the Nyancoin Core software.
 
 How to translate?
 ------------------

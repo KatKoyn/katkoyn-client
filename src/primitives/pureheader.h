@@ -150,7 +150,7 @@ public:
     inline bool IsLegacy() const
     {
         return nVersion == 1
-            // KatKoyn: We have a random v2 block with no AuxPoW, treat as legacy
+            // Nyancoin: We have a random v2 block with no AuxPoW, treat as legacy
             || (nVersion == 2 && GetChainId() == 0) || (nVersion == 3 && GetChainId() == 0) || (nVersion == 536870912 && GetChainId() == 8192) ;
     }
 };

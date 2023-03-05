@@ -44,11 +44,11 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case MBTC: return QString("MKAT");
-    case kBTC: return QString("kKAT");
-    case BTC: return QString("KAT");
-    case mBTC: return QString("mKAT");
-    case uBTC: return QString::fromUtf8("μKAT");
+    case MBTC: return QString("MNYAN");
+    case kBTC: return QString("kNYAN");
+    case BTC: return QString("NYAN");
+    case mBTC: return QString("mNYAN");
+    case uBTC: return QString::fromUtf8("μNYAN");
     default: return QString("???");
     }
 }
@@ -57,11 +57,11 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case MBTC: return QString("Mega-KatKoyns (1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-    case kBTC: return QString("Kilo-KatKoyns (1" THIN_SP_UTF8 "000)");
-    case BTC: return QString("KatKoyns");
-    case mBTC: return QString("Milli-KatKoyns (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-KatKoyns (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case MBTC: return QString("Mega-Nyancoins (1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case kBTC: return QString("Kilo-Nyancoins (1" THIN_SP_UTF8 "000)");
+    case BTC: return QString("Nyancoins");
+    case mBTC: return QString("Milli-Nyancoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-Nyancoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }

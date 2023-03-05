@@ -1,6 +1,6 @@
 [Protocol]
-exec=katkoyn-qt '%u'
-protocol=katkoyn
+exec=nyancoin-qt '%u'
+protocol=nyancoin
 input=none
 output=none
 helper=true
