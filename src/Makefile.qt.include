@@ -456,7 +456,7 @@ CLEAN_QT = $(nodist_qt_libnyancoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda
 CLEANFILES += $(CLEAN_QT)
 
 nyancoin_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libnyancoinqt_a_OBJECTS) $(qt_nyancoin_qt_OBJECTS) qt/katkoyn-qt$(EXEEXT) $(LIBNYANCOINQT)
+	rm -f $(CLEAN_QT) $(qt_libnyancoinqt_a_OBJECTS) $(qt_nyancoin_qt_OBJECTS) qt/nyancoin-qt$(EXEEXT) $(LIBNYANCOINQT)
 
 katkoyn_qt : qt/katkoyn-qt$(EXEEXT)
 
