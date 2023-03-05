@@ -1,15 +1,15 @@
 To assist packagers in creating node packages, sample configuration files are available for:
 
-SystemD: nyancoind.service
+SystemD: katkoynd.service
 
-Upstart: nyancoind.conf
+Upstart: katkoynd.conf
 
-OpenRC:  nyancoind.openrc
-         nyancoind.openrcconf
+OpenRC:  katkoynd.openrc
+         katkoynd.openrcconf
          
-CentOS:  nyancoind.init
+CentOS:  katkoynd.init
 
-OS X:    org.nyancoin.nyancoind.plist
+OS X:    org.katkoyn.katkoynd.plist
 
 
 

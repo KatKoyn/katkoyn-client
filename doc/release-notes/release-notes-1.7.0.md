@@ -1,8 +1,8 @@
-# Nyancoin Core 1.7 Alpha
+# KatKoyn Core 1.7 Alpha
 =========================
 
-Nyancoin Core 1.7 is a complete re-architecture of Nyancoin, changing from
-using the Litecoin client as its base, to Bitcoin 0.9. It's still Nyancoin,
+KatKoyn Core 1.7 is a complete re-architecture of KatKoyn, changing from
+using the Litecoin client as its base, to Bitcoin 0.9. It's still KatKoyn,
 with the same Scrypt PoW algorithm, same reward schedule, but there are a 
 lot of changes under the hood.
 
@@ -21,19 +21,19 @@ First and foremost, please note that downgrading from 1.7 to 1.6 is not trivial.
 1.7 now uses Berkeley DB 5.1 as its default database (in place of 4.8), and as
 such may create database files which are incompatible with previous versions.
 
-Rebranding to Nyancoin Core
+Rebranding to KatKoyn Core
 ---------------------------
 
-Following in the footsteps of Bitcoin (Core), the Nyancoin reference client
-has been rebranded as "Nyancoin Core". This helps separate its identity
-from Nyancoin (the network).
+Following in the footsteps of Bitcoin (Core), the KatKoyn reference client
+has been rebranded as "KatKoyn Core". This helps separate its identity
+from KatKoyn (the network).
 
-nyancoin-cli
+katkoyn-cli
 ------------
 
-Where previously commands were sent to nyancoind by running
-"nyancoind <command>", 1.7 adopts the model from Bitcoin Core 0.9 where there is
-a separate "nyancoin-cli" executable which is used instead. This avoids the risk
+Where previously commands were sent to katkoynd by running
+"katkoynd <command>", 1.7 adopts the model from Bitcoin Core 0.9 where there is
+a separate "katkoyn-cli" executable which is used instead. This avoids the risk
 of accidentally trying to start two daemons at the same time, for example.
 
 
@@ -48,9 +48,9 @@ Testnet
 -------
 
 As mentioned at the start of this document, the alpha-client is for use with the
-Nyancoin testnet only. This is an alternative Nyancoin blockchain which is
+KatKoyn testnet only. This is an alternative KatKoyn blockchain which is
 not used for real transactions, and instead is intended for testing of experimental
-clients. Wallets and addresses are incompatible with the normal Nyancoin
+clients. Wallets and addresses are incompatible with the normal KatKoyn
 network, in order to isolate the two.
 
 As "TestDoge" is essentially valueless, it can be acquired easily for testing,

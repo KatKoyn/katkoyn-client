@@ -1,38 +1,38 @@
-Nyancoin Core 2.0
+KatKoyn Core 2.0
 =====================
 
 Setup
 ---------------------
-[Nyancoin Core](http://nyancoin.com/) is the reference Nyancoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Bitcoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+[KatKoyn Core](http://katkoyn.com/) is the reference KatKoyn client and it builds the backbone of the network. However, it downloads and stores the entire history of Bitcoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Nyancoin on your native platform.
+The following are some helpful notes on how to run KatKoyn on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/nyancoin-qt` (GUI) or
-- `bin/nyancoind` (headless)
+- `bin/katkoyn-qt` (GUI) or
+- `bin/katkoynd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run nyancoin-qt.exe.
+Unpack the files into a directory, and then run katkoyn-qt.exe.
 
 ### OS X
 
-Drag Nyancoin-Core to your applications folder, and then run Nyancoin-Core.
+Drag KatKoyn-Core to your applications folder, and then run KatKoyn-Core.
 
 ### Need Help?
 
-* Ask for help on the [Nyancoin Telegram channel](https://t.me/nyancoins).
-* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Nyancoin thread](https://bitcointalk.org/index.php?topic=1636509.0).
-* Ask for help on the [Nyancoin subreddit](https://www.reddit.com/r/nyancoins/).
+* Ask for help on the [KatKoyn Telegram channel](https://t.me/katkoyns).
+* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [KatKoyn thread](https://bitcointalk.org/index.php?topic=1636509.0).
+* Ask for help on the [KatKoyn subreddit](https://www.reddit.com/r/katkoyns/).
 
 Building
 ---------------------
-The following are developer notes on how to build Nyancoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build KatKoyn on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Nyancoin on your native platfo
 
 Development
 ---------------------
-The Nyancoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The KatKoyn repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
@@ -55,8 +55,8 @@ The Nyancoin repo's [root README](/README.md) contains relevant information on t
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Nyancoin thread](https://bitcointalk.org/index.php?topic=1636509.0).
-* Discuss on [Nyancoin Telegram channel](https://t.me/nyancoins).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [KatKoyn thread](https://bitcointalk.org/index.php?topic=1636509.0).
+* Discuss on [KatKoyn Telegram channel](https://t.me/katkoyns).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
@@ -70,6 +70,6 @@ The Nyancoin repo's [root README](/README.md) contains relevant information on t
 License
 ---------------------
 Distributed under the [MIT software license](/COPYING).
-This product includes software developed by the Bitcoin developers for use in [Nyancoin Core](https://www.bitcoin.org/). 
+This product includes software developed by the Bitcoin developers for use in [KatKoyn Core](https://www.bitcoin.org/). 
 This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes
 cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.

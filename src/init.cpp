@@ -201,7 +201,7 @@ void Shutdown()
     StopRPC();
     StopHTTPServer();
 #ifdef ENABLE_WALLET
-    // Nyancoin 1.14 TODO: ShutdownRPCMining();
+    // Nyncoin 1.14 TODO: ShutdownRPCMining();
     if (pwalletMain)
         pwalletMain->Flush(false);
 #endif
@@ -510,8 +510,8 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/nyancoin-official/nyancoin-client>";
-    const std::string URL_WEBSITE = "<https://nyancoin.info>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/KatKoyn/katkoyn-client>";
+    const std::string URL_WEBSITE = "<https://katkoyn.com>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2013, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -793,7 +793,7 @@ void InitLogging()
     fLogIPs = GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Nyancoin version %s\n", FormatFullVersion());
+    LogPrintf("KatKoyn version %s\n", FormatFullVersion());
 }
 
 namespace { // Variables internal to initialization process only
@@ -1657,7 +1657,7 @@ bool AppInitMain(boost::thread_group& threadGroup, CScheduler& scheduler)
 
     // ********************************************************* Step 12: finished
 
-    // Nyancoin: Do we need to do any RPC mining init here?
+    // Nyncoin: Do we need to do any RPC mining init here?
 
     SetRPCWarmupFinished();
     uiInterface.InitMessage(_("Done loading"));

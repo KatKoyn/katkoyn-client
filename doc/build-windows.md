@@ -1,7 +1,7 @@
 WINDOWS BUILD NOTES
 ====================
 
-Below are some notes on how to build Nyancoin Core for Windows.
+Below are some notes on how to build KatKoyn Core for Windows.
 
 Most developers use cross-compilation from Ubuntu to build executables for
 Windows. This is also used to build the release binaries.
@@ -67,8 +67,8 @@ To build executables for Windows 64-bit, install the following dependencies:
 
 Then build using:
 
-    git clone https://github.com/nyancoin-official/nyancoin-client.git
-    cd nyancoin-client
+    git clone https://github.com/katkoyn-official/katkoyn-client.git
+    cd katkoyn-client
     cd depends
     make HOST=x86_64-w64-mingw32
     cd ..
@@ -84,8 +84,8 @@ To build executables for Windows 32-bit, install the following dependencies:
 
 Then build using:
 
-    git clone https://github.com/nyancoin-official/nyancoin-client.git
-    cd nyancoin-client
+    git clone https://github.com/katkoyn-official/katkoyn-client.git
+    cd katkoyn-client
     cd depends
     make HOST=i686-w64-mingw32
     cd ..
@@ -103,6 +103,6 @@ Installation
 After building using the Windows subsystem it can be useful to copy the compiled
 executables to a directory on the windows drive in the same directory structure
 as they appear in the release `.zip` archive. This can be done in the following
-way. This will install to `c:\workspace\nyancoin`, for example:
+way. This will install to `c:\workspace\katkoyn`, for example:
 
-    make install DESTDIR=/mnt/c/workspace/nyancoin
+    make install DESTDIR=/mnt/c/workspace/katkoyn

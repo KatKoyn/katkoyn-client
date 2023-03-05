@@ -1,11 +1,11 @@
 Benchmarking
 ============
 
-Nyancoin Core has an internal benchmarking framework, with benchmarks
+KatKoyn Core has an internal benchmarking framework, with benchmarks
 for cryptographic algorithms such as SHA1, SHA256, SHA512 and RIPEMD160. As well as the rolling bloom filter.
 
-After compiling nyancoin-core, the benchmarks can be run with:
-`src/bench/bench_nyancoin`
+After compiling katkoyn-core, the benchmarks can be run with:
+`src/bench/bench_katkoyn`
 
 The output will look similar to:
 ```

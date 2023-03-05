@@ -1,15 +1,15 @@
-# Nyancoin Core 1.8.2
+# KatKoyn Core 1.8.2
 
-Nyancoin Core 1.8.2 is a bugfix release. It updates OpenSSL to 1.0.1l, mainly fixing security issues.
+KatKoyn Core 1.8.2 is a bugfix release. It updates OpenSSL to 1.0.1l, mainly fixing security issues.
 
-## Nyancoin Core Release Notes
+## KatKoyn Core Release Notes
 
 * Update to OpenSSL 1.0.1l
 
 
 ## OpenSSL Warning
 
-The main takeaway is that builds from http://nyancoin.com are not affected. But if you build your own version,
+The main takeaway is that builds from http://katkoyn.com are not affected. But if you build your own version,
 please make sure you update to 1.8.2 **before** updating your OpenSSL!
 
 Please refer to this section in the Bitcoin Core release notes for further info: https://github.com/bitcoin/bitcoin/blob/0.9/doc/release-notes.md#openssl-warning
@@ -19,7 +19,7 @@ Please refer to this section in the Bitcoin Core release notes for further info:
 
 Listed in strictly alphabetical order, using name listed in Github. This
 includes those whose contributions to Bitcoin Core have been merged
-into Nyancoin Core:
+into KatKoyn Core:
 
 * Cory Fields
 * langerhans

@@ -1,7 +1,7 @@
-# Nyancoin Core 1.8.1
+# KatKoyn Core 1.8.1
 
-Nyancoin Core 1.8.1 is primarily a bugfix release, bringing Nyancoin Core in
-line with Bitcoin 0.9.3. Nyancoin Core 1.8.1 also adds in support for printing
+KatKoyn Core 1.8.1 is primarily a bugfix release, bringing KatKoyn Core in
+line with Bitcoin 0.9.3. KatKoyn Core 1.8.1 also adds in support for printing
 paper wallets, and disables connections to pre-1.8 clients. This is a RECOMMENDED
 upgrade due to the large number of bug fixes, but is not a required one.
 
@@ -32,7 +32,7 @@ below:
 
 ## Known Issues
 
-There is a known issue with quantities in JSON used by the RPC interface (https://github.com/nyancoin/nyancoin/issues/134).
+There is a known issue with quantities in JSON used by the RPC interface (https://github.com/katkoyn/katkoyn/issues/134).
 This stems from the use of a floating point precision number to hold fixed precision data.
 Currently looking at solutions, which primarily either involve JSON which is not compliant
 to the specification, or making the RPC layer slightly incompatible with the conventional
@@ -45,7 +45,7 @@ the nearest Doge on all transactions for now.
 
 Listed in strictly alphabetical order, using name listed in Github. This
 includes those whose contributions to Bitcoin Core have been merged
-into Nyancoin Core:
+into KatKoyn Core:
 
 * Abderraouf Adjal
 * Andymeows

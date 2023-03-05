@@ -18,7 +18,7 @@ BOOST_FIXTURE_TEST_SUITE(pow_tests, BasicTestingSetup)
 
 
 /* Test the constraint on the upper bound for actual time taken */
-// Replaced by Nyancoin-specific PoW test
+// Replaced by Nyncoin-specific PoW test
 /* BOOST_AUTO_TEST_CASE(get_next_work_upper_limit_actual)
 {
     SelectParams(CBaseChainParams::MAIN);

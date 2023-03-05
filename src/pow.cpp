@@ -131,7 +131,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         return pindexLast->nBits;
     }
 	
-    // Nyancoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // Nyncoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = nInterval-1;
     if ((pindexLast->nHeight+1) != nInterval)
@@ -155,7 +155,7 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
 
 int64_t nActualTimespan = pindexLast->GetBlockTime() - nFirstBlockTime;
 int64_t nReTargetHistoryFact =4;
-int64_t nTargetTimespan = 3 * 60 * 60; // NyanCoin: 3 hours
+int64_t nTargetTimespan = 3 * 60 * 60; // NynCoin: 3 hours
  
 
    if (pindexLast->nHeight > 15000)

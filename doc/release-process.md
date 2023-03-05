@@ -3,9 +3,9 @@ Release Process
 
 Before every release candidate:
 
-* Update translations (ping wumpus on IRC) see [translation_process.md](https://github.com/nyancoin/nyancoin/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations (ping wumpus on IRC) see [translation_process.md](https://github.com/katkoyn/katkoyn/blob/master/doc/translation_process.md#synchronising-translations).
 
-* Update manpages, see [gen-manpages.sh](https://github.com/nyancoin/nyancoin/blob/master/contrib/devtools/README.md#gen-manpagessh).
+* Update manpages, see [gen-manpages.sh](https://github.com/katkoyn/katkoyn/blob/master/contrib/devtools/README.md#gen-manpagessh).
 
 Before every minor and major release:
 
@@ -21,7 +21,7 @@ Before every minor and major release:
 
 Before every major release:
 
-* Update hardcoded [seeds](/contrib/seeds/README.md), see [this pull request](https://github.com/nyancoin/nyancoin/pull/7415) for an example.
+* Update hardcoded [seeds](/contrib/seeds/README.md), see [this pull request](https://github.com/katkoyn/katkoyn/pull/7415) for an example.
 * Update [`BLOCK_CHAIN_SIZE`](/src/qt/intro.cpp) to the current size plus some overhead.
 
 ### First time / New builders
@@ -31,12 +31,12 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/nyancoin-core/gitian.sigs.git
-    git clone https://github.com/nyancoin-core/nyancoin-detached-sigs.git
+    git clone https://github.com/katkoyn-core/gitian.sigs.git
+    git clone https://github.com/katkoyn-core/katkoyn-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/nyancoin/nyancoin.git
+    git clone https://github.com/katkoyn/katkoyn.git
 
-### Nyancoin maintainers/release engineers, update version in sources
+### KatKoyn maintainers/release engineers, update version in sources
 
 Update the following:
 
@@ -75,7 +75,7 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./nyancoin
+    pushd ./katkoyn
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -109,7 +109,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../nyancoin/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../katkoyn/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -117,50 +117,50 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url nyancoin=/path/to/nyancoin,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url katkoyn=/path/to/katkoyn,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Nyancoin Core for Linux, Windows, and OS X:
+### Build and sign KatKoyn Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit nyancoin=v${VERSION} ../nyancoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../nyancoin/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/nyancoin-*.tar.gz build/out/src/nyancoin-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit katkoyn=v${VERSION} ../katkoyn/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../katkoyn/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/katkoyn-*.tar.gz build/out/src/katkoyn-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit nyancoin=v${VERSION} ../nyancoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../nyancoin/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/nyancoin-*-win-unsigned.tar.gz inputs/nyancoin-win-unsigned.tar.gz
-    mv build/out/nyancoin-*.zip build/out/nyancoin-*.exe ../
+    ./bin/gbuild --memory 3000 --commit katkoyn=v${VERSION} ../katkoyn/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../katkoyn/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/katkoyn-*-win-unsigned.tar.gz inputs/katkoyn-win-unsigned.tar.gz
+    mv build/out/katkoyn-*.zip build/out/katkoyn-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit nyancoin=v${VERSION} ../nyancoin/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../nyancoin/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/nyancoin-*-osx-unsigned.tar.gz inputs/nyancoin-osx-unsigned.tar.gz
-    mv build/out/nyancoin-*.tar.gz build/out/nyancoin-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit katkoyn=v${VERSION} ../katkoyn/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../katkoyn/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/katkoyn-*-osx-unsigned.tar.gz inputs/katkoyn-osx-unsigned.tar.gz
+    mv build/out/katkoyn-*.tar.gz build/out/katkoyn-*.dmg ../
     popd
 
 Build output expected:
 
-  1. source tarball (`nyancoin-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`nyancoin-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`nyancoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `nyancoin-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`nyancoin-${VERSION}-osx-unsigned.dmg`, `nyancoin-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`katkoyn-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`katkoyn-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`katkoyn-${VERSION}-win[32|64]-setup-unsigned.exe`, `katkoyn-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`katkoyn-${VERSION}-osx-unsigned.dmg`, `katkoyn-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import nyancoin/contrib/gitian-keys/*.pgp
+    gpg --import katkoyn/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../nyancoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../nyancoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../nyancoin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../katkoyn/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../katkoyn/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../katkoyn/contrib/gitian-descriptors/gitian-osx.yml
     popd
 
 ### Next steps:
@@ -178,25 +178,25 @@ Commit your signature to gitian.sigs:
 Wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [nyancoin-detached-sigs](https://github.com/nyancoin-project/nyancoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [katkoyn-detached-sigs](https://github.com/katkoyn-project/katkoyn-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../nyancoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../nyancoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../nyancoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/nyancoin-osx-signed.dmg ../nyancoin-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../katkoyn/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../katkoyn/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../katkoyn/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/katkoyn-osx-signed.dmg ../katkoyn-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../nyancoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../nyancoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../nyancoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/nyancoin-*win64-setup.exe ../nyancoin-${VERSION}-win64-setup.exe
-    mv build/out/nyancoin-*win32-setup.exe ../nyancoin-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../katkoyn/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../katkoyn/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../katkoyn/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/katkoyn-*win64-setup.exe ../katkoyn-${VERSION}-win64-setup.exe
+    mv build/out/katkoyn-*win32-setup.exe ../katkoyn-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -218,23 +218,23 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-nyancoin-${VERSION}-aarch64-linux-gnu.tar.gz
-nyancoin-${VERSION}-arm-linux-gnueabihf.tar.gz
-nyancoin-${VERSION}-i686-pc-linux-gnu.tar.gz
-nyancoin-${VERSION}-x86_64-linux-gnu.tar.gz
-nyancoin-${VERSION}-osx64.tar.gz
-nyancoin-${VERSION}-osx.dmg
-nyancoin-${VERSION}.tar.gz
-nyancoin-${VERSION}-win32-setup.exe
-nyancoin-${VERSION}-win32.zip
-nyancoin-${VERSION}-win64-setup.exe
-nyancoin-${VERSION}-win64.zip
+katkoyn-${VERSION}-aarch64-linux-gnu.tar.gz
+katkoyn-${VERSION}-arm-linux-gnueabihf.tar.gz
+katkoyn-${VERSION}-i686-pc-linux-gnu.tar.gz
+katkoyn-${VERSION}-x86_64-linux-gnu.tar.gz
+katkoyn-${VERSION}-osx64.tar.gz
+katkoyn-${VERSION}-osx.dmg
+katkoyn-${VERSION}.tar.gz
+katkoyn-${VERSION}-win32-setup.exe
+katkoyn-${VERSION}-win32.zip
+katkoyn-${VERSION}-win64-setup.exe
+katkoyn-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
-space *do not upload these to the nyancoin.com server, nor put them in the torrent*.
+space *do not upload these to the katkoyn.com server, nor put them in the torrent*.
 
 - GPG-sign it, delete the unsigned file:
 ```
@@ -244,23 +244,23 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the nyancoin.com Github repo
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the katkoyn.com Github repo
 
-- Create a [new GitHub release](https://github.com/nyancoin/nyancoin/releases/new) with a link to the archived release notes.
+- Create a [new GitHub release](https://github.com/katkoyn/katkoyn/releases/new) with a link to the archived release notes.
 
-- Update nyancoin.com version - Langerhans to do
+- Update katkoyn.com version - Langerhans to do
 
 - Announce the release:
 
-  - Release sticky on Nyancoin Forums: http://forum.nyancoin.com/forum/news-community/community-announcements
+  - Release sticky on KatKoyn Forums: http://forum.katkoyn.com/forum/news-community/community-announcements
 
-  - Nyancoin-development mailing list
+  - KatKoyn-development mailing list
 
-  - Twitter, reddit /r/nyancoin
+  - Twitter, reddit /r/katkoyn
 
-  - Update title of #nyancoin on Freenode IRC
+  - Update title of #katkoyn on Freenode IRC
 
-  - Announce on reddit /r/nyancoin, /r/nyancoindev
+  - Announce on reddit /r/katkoyn, /r/katkoyndev
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

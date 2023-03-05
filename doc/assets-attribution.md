@@ -1,4 +1,4 @@
-The following is a list of assets used in the nyancoin source and their proper attribution.
+The following is a list of assets used in the katkoyn source and their proper attribution.
 
 [Typicons/Stephen Hutchings](http://typicons.com)
 -----------------------
@@ -40,7 +40,7 @@ Other
 
 ### Info
 * Designer: Jonas Schnelli, Bitboy, Stephen Hutchings, Marco Falke
-* Nyancoin Icon: Based on the original Nyancoin logo from Christine Ricks
+* KatKoyn Icon: Based on the original KatKoyn logo from Christine Ricks
 * Network connection icon: Inspired by flow-merge.svg from Stephen Hutchings
 * Some icons are based on Stephan Hutchings Typicons
 * License: MIT

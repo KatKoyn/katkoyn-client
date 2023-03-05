@@ -1,12 +1,12 @@
-### Building nyancoin-qt 2.x on modern macs. ###
+### Building katkoyn-qt 2.x on modern macs. ###
 
 Tested on OSX 10.11 El Capitan and 10.13 High Sierra.
 
 **Paper wallet printing support seems to work fine through this method as well.**
 
-### Clone nyancoin locally, or check it out, etc. ###
+### Clone katkoyn locally, or check it out, etc. ###
 
-	$git clone https://github.com/nyancoin-official/nyancoin-client.git
+	$git clone https://github.com/katkoyn-official/katkoyn-client.git
 
 ### Set up OSX basic build dependencies. ##
 
@@ -63,9 +63,9 @@ Build BDB 4.8.30
     $cd /usr/local/include 
     $ln -s ../opt/openssl/include/openssl 
 
-### Go back to your Nyancoin repo ###
+### Go back to your KatKoyn repo ###
 
-    $cd ~/nyancoin
+    $cd ~/katkoyn
     $./autogen.sh
     $./configure --with-gui=qt5 --with-qrcode=yes
     $make
@@ -78,7 +78,7 @@ Go have another beverage.
 
 Run it.
 
-	$/usr/local/bin/nyancoin-qt
+	$/usr/local/bin/katkoyn-qt
 
 
 
