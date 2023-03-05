@@ -458,7 +458,7 @@ CLEANFILES += $(CLEAN_QT)
 nyancoin_qt_clean: FORCE
 	rm -f $(CLEAN_QT) $(qt_libnyancoinqt_a_OBJECTS) $(qt_nyancoin_qt_OBJECTS) qt/katkoyn-qt$(EXEEXT) $(LIBNYANCOINQT)
 
-nyancoin_qt : qt/katkoyn-qt$(EXEEXT)
+katkoyn_qt : qt/katkoyn-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)
