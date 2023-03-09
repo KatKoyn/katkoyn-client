@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>KatKoyn-Qt</string>
+  <string>katkoyn-qt</string>
   
   <key>CFBundleName</key>
-  <string>KatKoyn-Qt</string>
+  <string>katkoyn-qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>com.katkoyn.KatKoyn-Qt</string>
+  <string>com.katkoyn.katkoyn-qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>

@@ -42,7 +42,7 @@ to add a test plan to the pull request description if testing the changes is
 not straightforward.
 
 
-### How to make kaykoynd/kaykoyn-cli/kaykoyn-qt
+### How to make katkoynd/katkoyn-cli/katkoyn-qt
 
   The following are developer notes on how to build KatKoyn on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 

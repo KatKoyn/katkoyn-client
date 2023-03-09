@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[nyancoin.qt-translation-02x]
+[katkoyn.qt-translation-02x]
 file_filter = src/qt/locale/nyancoin_<lang>.ts
 source_file = src/qt/locale/nyancoin_en.ts
 source_lang = en

@@ -50,7 +50,7 @@ static const int MAX_URI_LENGTH = 255;
 
 #define QAPP_ORG_NAME "KatKoyn"
 #define QAPP_ORG_DOMAIN "katkoyn.com"
-#define QAPP_APP_NAME_DEFAULT "KatKoyn-Qt"
-#define QAPP_APP_NAME_TESTNET "KatKoyn-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "katkoyn-qt"
+#define QAPP_APP_NAME_TESTNET "katkoyn-qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

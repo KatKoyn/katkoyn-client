@@ -56,7 +56,7 @@ Description: peer-to-peer network based digital currency - Qt GUI
  transact directly with each other, with the help of a P2P network to
  check for double-spending.
  .
- This package provides KatKoyn-Qt, a GUI for KatKoyn based on Qt.
+ This package provides katkoyn-qt, a GUI for KatKoyn based on Qt.
 
 Package: katkoyn-tx
 Architecture: any
