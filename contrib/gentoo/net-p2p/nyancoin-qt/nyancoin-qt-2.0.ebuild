@@ -3,11 +3,11 @@
 
 EAPI=7
 
-DESCRIPTION="An end-user Qt GUI for the Nyancoin crypto-currency"
+DESCRIPTION="An end-user Qt GUI for the KatKoyn crypto-currency"
 LICENSE="DWTFYW"
-HOMEPAGE="https://nyanchain.com/"
+HOMEPAGE="https://katkoyn.com/"
 SLOT="0"
-SRC_URI="https://codeload.github.com/nyancoin-official/nyancoin-client/tar.gz/refs/tags/v2.0 -> nyancoin-v2.0.tar.gz"
+SRC_URI="https://codeload.github.com/KatKoyn/katkoyn-client/tar.gz/refs/tags/v2.0 -> katkoyn-v2.0.tar.gz"
 
 DB_VER="4.8"
 inherit autotools bash-completion-r1 db-use gnome2-utils xdg-utils
@@ -53,12 +53,12 @@ BDEPEND="
 
 DOCS=( doc/files.md doc/release-notes.md doc/REST-interface.md doc/tor.md )
 
-S="${WORKDIR}/Nyancoin"
+S="${WORKDIR}/katkoyn"
 
 pkg_pretend() {
-		elog "You are building ${PN} from Nyancoin Core."
+		elog "You are building ${PN} from KatKoyn Core."
 		elog "For more information, see:"
-		elog "https://github.com/nyancoin-official/nyancoin-client/releases/tag/${PV}/"
+		elog "https://github.com/nKatKoyn/katkoyn-client/releases/tag/${PV}/"
 }
 
 src_prepare() {
@@ -116,7 +116,7 @@ src_install() {
 	insinto /usr/share/icons/hicolor/scalable/apps/
 	doins bitcoin128.svg
 	if use evo; then
-		newins src/qt/res/src/bitcoin.svg nyancoin.svg
+		newins src/qt/res/src/bitcoin.svg katkoyn.svg
 	fi
 }
 

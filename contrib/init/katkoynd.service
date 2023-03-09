@@ -3,16 +3,16 @@
 #
 # The relevant paths are:
 #
-#/usr/bin/nyancoind
-#/etc/nyancoin/
-#/var/lib/nyancoin/
+#/usr/bin/katkoynd
+#/etc/katkoyn/
+#/var/lib/katkoyn/
 
 [Unit]
-Description=Nyancoin's distributed currency daemon
+Description=KatKoyn's distributed currency daemon
 After=network.target
 [Service]
 Type=simple
-ExecStart=/usr/bin/nyancoind -conf=/etc/nyancoin/nyancoin.conf -datadir=/var/lib/nyancoin
+ExecStart=/usr/bin/katkoynd -conf=/etc/katkoyn/katkoyn.conf -datadir=/var/lib/katkoyn
 KillSignal=SIGINT
 Restart=always
 RestartSec=5
@@ -20,8 +20,8 @@ TimeoutStopSec=60
 TimeoutStartSec=5
 StartLimitIntervalSec=120
 StartLimitBurst=5
-User=nyancoin
-Group=nyancoin
+User=katkoyn
+Group=katkoyn
 ### Restrict resource consumption
 MemoryAccounting=yes
 MemoryLimit=3g
@@ -33,8 +33,8 @@ TemporaryFileSystem=/:ro
 # Add core dependencies
 BindReadOnlyPaths=/etc/ /lib/ /lib64/
 # Add daemon paths
-BindReadOnlyPaths=/usr/bin/nyancoind /etc/nyancoin/
-BindPaths=/var/lib/nyancoin
+BindReadOnlyPaths=/usr/bin/katkoynd /etc/katkoyn/
+BindPaths=/var/lib/katkoyn
 ### Restrict access to system.
 NoNewPrivileges=true
 PrivateTmp=true

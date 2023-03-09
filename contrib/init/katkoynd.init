@@ -12,20 +12,20 @@
 . /etc/init.d/functions
 
 # you can override defaults in /etc/sysconfig/nyncoind, see below
-if [ -f /etc/sysconfig/nyancoind ]; then
-        . /etc/sysconfig/nyancoind
+if [ -f /etc/sysconfig/katkoynd ]; then
+        . /etc/sysconfig/katkoynd
 fi
 
 RETVAL=0
 
-prog=nyancoind
+prog=katkoynd
 # you can override the lockfile via NYNCOIND_LOCKFILE in /etc/sysconfig/nyncoind
-lockfile=${NYANCOIND_LOCKFILE-/var/lock/subsys/nyancoind}
+lockfile=${NYANCOIND_LOCKFILE-/var/lock/subsys/katkoynd}
 
-# nyancoind defaults to /usr/bin/nyncoind, override with NYNCOIND_BIN
-nyancoind=${NYANCOIND_BIN-/usr/bin/nyancoind}
+# katkoynd defaults to /usr/bin/katkoynd, override with NYNCOIND_BIN
+nyancoind=${NYANCOIND_BIN-/usr/bin/katkoynd}
 
-# nyancoind opts default to -disablewallet, override with NYNCOIND_OPTS
+# katkoynd opts default to -disablewallet, override with NYNCOIND_OPTS
 nyancoind_opts=${NYANCOIND_OPTS--disablewallet}
 
 start() {

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.nyancoin.nyancoind</string>
+	<string>org.katkoyn.katkoynd</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/nyancoind</string>
+		<string>/usr/local/bin/katkoynd</string>
 		<string>-daemon</string>
 	</array>
 	<key>RunAtLoad</key>

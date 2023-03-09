@@ -2,11 +2,11 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-TESTS += test/test_nyancoin
-bin_PROGRAMS += test/test_nyancoin
-noinst_PROGRAMS += test/test_nyancoin_fuzzy
+TESTS += test/test_katkoyn
+bin_PROGRAMS += test/test_katkoyn
+noinst_PROGRAMS += test/test_katkoyn_fuzzy
 TEST_SRCDIR = test
-TEST_BINARY=test/test_nyancoin$(EXEEXT)
+TEST_BINARY=test/test_katkoyn$(EXEEXT)
 
 
 EXTRA_DIST += \
@@ -149,30 +149,30 @@ BITCOIN_TESTS += \
   wallet/test/crypto_tests.cpp
 endif
 
-test_test_nyancoin_SOURCES = $(BITCOIN_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
-test_test_nyancoin_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -I$(builddir)/test/ $(TESTDEFS) $(EVENT_CFLAGS)
-test_test_nyancoin_LDADD = $(LIBNYANCOIN_SERVER) $(LIBNYANCOIN_CLI) $(LIBNYANCOIN_COMMON) $(LIBNYANCOIN_UTIL) $(LIBNYANCOIN_CONSENSUS) $(LIBNYANCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+test_test_katkoyn_SOURCES = $(BITCOIN_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
+test_test_katkoyn_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -I$(builddir)/test/ $(TESTDEFS) $(EVENT_CFLAGS)
+test_test_katkoyn_LDADD = $(LIBNYANCOIN_SERVER) $(LIBNYANCOIN_CLI) $(LIBNYANCOIN_COMMON) $(LIBNYANCOIN_UTIL) $(LIBNYANCOIN_CONSENSUS) $(LIBNYANCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(BOOST_UNIT_TEST_FRAMEWORK_LIB) $(LIBSECP256K1) $(EVENT_LIBS)
-test_test_nyancoin_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+test_test_katkoyn_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 if ENABLE_WALLET
-test_test_nyancoin_LDADD += $(LIBNYANCOIN_WALLET)
+test_test_katkoyn_LDADD += $(LIBNYANCOIN_WALLET)
 endif
 
-test_test_nyancoin_LDADD += $(LIBNYANCOIN_CONSENSUS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-test_test_nyancoin_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
+test_test_katkoyn_LDADD += $(LIBNYANCOIN_CONSENSUS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+test_test_katkoyn_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
 
 if ENABLE_ZMQ
-test_test_nyancoin_LDADD += $(ZMQ_LIBS)
+test_test_katkoyn_LDADD += $(ZMQ_LIBS)
 endif
 #
 
 # test_bitcoin_fuzzy binary #
-test_test_nyancoin_fuzzy_SOURCES = test/test_bitcoin_fuzzy.cpp
-test_test_nyancoin_fuzzy_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-test_test_nyancoin_fuzzy_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-test_test_nyancoin_fuzzy_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+test_test_katkoyn_fuzzy_SOURCES = test/test_bitcoin_fuzzy.cpp
+test_test_katkoyn_fuzzy_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+test_test_katkoyn_fuzzy_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+test_test_katkoyn_fuzzy_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
-test_test_nyancoin_fuzzy_LDADD = \
+test_test_katkoyn_fuzzy_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBNYANCOIN_SERVER) \
   $(LIBNYANCOIN_COMMON) \
@@ -181,10 +181,10 @@ test_test_nyancoin_fuzzy_LDADD = \
   $(LIBNYANCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-test_test_nyancoin_fuzzy_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+test_test_katkoyn_fuzzy_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
-nodist_test_test_nyancoin_SOURCES = $(GENERATED_TEST_FILES)
+nodist_test_test_katkoyn_SOURCES = $(GENERATED_TEST_FILES)
 
 $(BITCOIN_TESTS): $(GENERATED_TEST_FILES)
 
@@ -195,13 +195,13 @@ CLEANFILES += $(CLEAN_BITCOIN_TEST)
 # This file is problematic for out-of-tree builds if it exists.
 DISTCLEANFILES += test/buildenv.pyc
 
-nyancoin_test: $(TEST_BINARY)
+katkoyn_test: $(TEST_BINARY)
 
-nyancoin_test_check: $(TEST_BINARY) FORCE
+katkoyn_test_check: $(TEST_BINARY) FORCE
 	$(MAKE) check-TESTS TESTS=$^
 
-nyancoin_test_clean : FORCE
-	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_nyancoin_OBJECTS) $(TEST_BINARY)
+katkoyn_test_clean : FORCE
+	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_katkoyn_OBJECTS) $(TEST_BINARY)
 
 check-local:
 	@echo "Running test/bitcoin-util-test.py..."
